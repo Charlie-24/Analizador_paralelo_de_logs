@@ -1,0 +1,20 @@
+2025-10-08 08:32:15,124 [INFO] 192.168.1.10 User 'admin' logged in successfully.
+2025-10-08 08:35:47,982 [WARNING] 192.168.1.12 Disk usage at 85% on /dev/sda1.
+2025-10-08 08:41:03,557 [ERROR] 192.168.1.15 Failed to connect to database 'inventory'.
+2025-10-08 09:02:11,321 [INFO] 192.168.1.10 Scheduled backup completed in 32.4 seconds.
+2025-10-08 09:10:29,210 [INFO] 192.168.1.23 HTTP request from 192.168.1.23:200 GET /api/items 200 OK
+2025-10-08 09:15:55,744 [ERROR] 192.168.1.18 Unexpected end of file while reading config.yaml.
+2025-10-08 09:22:40,010 [WARNING] 192.168.1.12 CPU temperature high (87°C).
+2025-10-08 09:33:01,332 [INFO] 192.168.1.23 User 'guest' requested resource /public/info.
+2025-10-08 09:45:12,654 [INFO] 192.168.1.17 Configuration reloaded successfully.
+2025-10-08 09:52:47,500 [ERROR] 192.168.1.11 Failed to open socket on port 8080.
+2025-10-08 10:01:05,210 [INFO] 192.168.1.25 System check completed with no errors.
+2025-10-08 10:15:43,998 [WARNING] 192.168.1.14 High network latency detected (1200ms).
+2025-10-08 10:20:37,422 [INFO] 192.168.1.16 User 'backup' logged in for scheduled task.
+2025-10-08 10:25:10,754 [ERROR] 192.168.1.13 File not found: /var/www/html/index.html.
+2025-10-08 10:30:44,512 [INFO] 192.168.1.22 Cron job executed successfully.
+2025-10-08 10:34:01,111 [WARNING] 192.168.1.19 Disk usage at 90% on /dev/sdb1.
+2025-10-08 10:45:59,621 [ERROR] 192.168.1.21 Timeout while connecting to SMTP server.
+2025-10-08 10:50:23,888 [INFO] 192.168.1.18 System updated successfully.
+2025-10-08 10:53:45,376 [WARNING] 192.168.1.10 Memory usage exceeded 85%.
+2025-10-08 11:00:12,244 [INFO] 192.168.1.15 User 'root' logged out.
