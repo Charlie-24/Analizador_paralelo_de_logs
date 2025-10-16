@@ -24,7 +24,7 @@ import config
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
-
+# Metodo auxliar implementado en otros metodos 
 def _ensure_log_dir() -> Path:
     """Devuelve Path de LOG_DIR si existe, si no lanza FileNotFoundError."""
     log_dir = Path(config.LOG_DIR)
@@ -57,7 +57,7 @@ def list_log_files(patterns: Optional[List[str]] = None) -> List[Path]:
     paths.sort()
     return paths
 
-
+# Metodo auxliar implementado en otros metodos 
 def _open_file(path: Path): 
     """
     Abre un fichero con la codificación y la estrategia de errores definidas en config.
