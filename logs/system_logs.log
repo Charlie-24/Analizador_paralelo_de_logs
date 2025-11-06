@@ -1,0 +1,1000 @@
+2025-11-11 [ERROR] 192.168.1.12 Scheduled backup completed in 32.4 seconds.
+2025-07-07 [ERROR] 192.168.1.29 Backup failed: insufficient disk space.
+2025-12-08 [ERROR] 192.168.1.19 Disk usage at 85% on /dev/sda1.
+2025-04-27 [INFO] 192.168.1.23 Failed to connect to database 'inventory'.
+2025-05-14 [WARNING] 192.168.1.13 HTTP request from 192.168.1.13:200 GET /api/items 200 OK
+2025-05-24 [INFO] 192.168.1.10 Network latency detected on 192.168.1.10.
+2025-06-18 [WARNING] 192.168.1.25 Service 'nginx' restarted successfully.
+2025-04-25 [WARNING] 192.168.1.22 CPU temperature high (87°C).
+2025-06-14 [WARNING] 192.168.1.20 User 'guest' requested resource /public/info.
+2025-10-08 [INFO] 192.168.1.13 Scheduled backup completed in 32.4 seconds.
+2025-12-04 [WARNING] 192.168.1.22 Failed to connect to database 'inventory'.
+2025-02-03 [ERROR] 192.168.1.28 Low memory detected: only 512MB free.
+2025-07-01 [ERROR] 192.168.1.15 Low memory detected: only 512MB free.
+2025-10-18 [ERROR] 192.168.1.27 Backup failed: insufficient disk space.
+2025-11-07 [ERROR] 192.168.1.18 Network latency detected on 192.168.1.18.
+2025-11-19 [ERROR] 192.168.1.23 User 'admin' logged in successfully.
+2025-04-07 [ERROR] 192.168.1.11 Network latency detected on 192.168.1.11.
+2025-07-14 [WARNING] 192.168.1.21 User 'admin' logged in successfully.
+2025-04-26 [ERROR] 192.168.1.22 Scheduled backup completed in 32.4 seconds.
+2025-08-23 [INFO] 192.168.1.27 Service 'nginx' restarted successfully.
+2025-09-23 [ERROR] 192.168.1.20 CPU temperature high (87°C).
+2025-04-11 [ERROR] 192.168.1.22 Low memory detected: only 512MB free.
+2025-09-07 [INFO] 192.168.1.12 Scheduled backup completed in 32.4 seconds.
+2025-02-16 [ERROR] 192.168.1.11 HTTP request from 192.168.1.11:200 GET /api/items 200 OK
+2025-03-06 [ERROR] 192.168.1.27 User 'admin' logged in successfully.
+2025-04-10 [ERROR] 192.168.1.16 Configuration file /etc/app/config.yaml updated.
+2025-04-07 [ERROR] 192.168.1.26 Low memory detected: only 512MB free.
+2025-12-05 [INFO] 192.168.1.18 Permission denied accessing /var/www/html.
+2025-07-08 [INFO] 192.168.1.12 Unexpected end of file while reading config.yaml.
+2025-05-24 [ERROR] 192.168.1.16 User 'admin' logged in successfully.
+2025-01-21 [INFO] 192.168.1.10 Failed to connect to database 'inventory'.
+2025-07-03 [WARNING] 192.168.1.19 Permission denied accessing /var/www/html.
+2025-04-01 [ERROR] 192.168.1.26 Database 'users' synchronized successfully.
+2025-05-04 [WARNING] 192.168.1.24 Database 'users' synchronized successfully.
+2025-08-03 [WARNING] 192.168.1.26 CPU temperature high (87°C).
+2025-11-03 [ERROR] 192.168.1.27 User 'admin' logged in successfully.
+2025-06-17 [INFO] 192.168.1.15 User 'guest' requested resource /public/info.
+2025-01-01 [ERROR] 192.168.1.18 Backup failed: insufficient disk space.
+2025-01-21 [WARNING] 192.168.1.29 HTTP request from 192.168.1.29:200 GET /api/items 200 OK
+2025-12-23 [INFO] 192.168.1.22 Disk usage at 85% on /dev/sda1.
+2025-07-26 [WARNING] 192.168.1.12 Network latency detected on 192.168.1.12.
+2025-10-02 [INFO] 192.168.1.23 User 'guest' requested resource /public/info.
+2025-12-20 [ERROR] 192.168.1.19 HTTP request from 192.168.1.19:200 GET /api/items 200 OK
+2025-05-28 [ERROR] 192.168.1.11 Network latency detected on 192.168.1.11.
+2025-07-13 [INFO] 192.168.1.14 Failed to connect to database 'inventory'.
+2025-03-28 [INFO] 192.168.1.28 CPU temperature high (87°C).
+2025-06-26 [ERROR] 192.168.1.14 Scheduled backup completed in 32.4 seconds.
+2025-11-03 [WARNING] 192.168.1.28 Service 'nginx' restarted successfully.
+2025-01-18 [INFO] 192.168.1.24 Service 'nginx' restarted successfully.
+2025-09-17 [INFO] 192.168.1.23 Failed to connect to database 'inventory'.
+2025-12-10 [ERROR] 192.168.1.18 CPU temperature high (87°C).
+2025-04-17 [INFO] 192.168.1.22 Unexpected end of file while reading config.yaml.
+2025-07-23 [WARNING] 192.168.1.12 Network latency detected on 192.168.1.12.
+2025-03-10 [WARNING] 192.168.1.17 Disk usage at 85% on /dev/sda1.
+2025-01-13 [ERROR] 192.168.1.22 Failed to connect to database 'inventory'.
+2025-01-04 [INFO] 192.168.1.17 Service 'nginx' restarted successfully.
+2025-06-07 [ERROR] 192.168.1.10 Network latency detected on 192.168.1.10.
+2025-03-05 [WARNING] 192.168.1.27 HTTP request from 192.168.1.27:200 GET /api/items 200 OK
+2025-01-10 [INFO] 192.168.1.19 Network latency detected on 192.168.1.19.
+2025-08-27 [INFO] 192.168.1.11 Backup failed: insufficient disk space.
+2025-06-05 [WARNING] 192.168.1.18 Scheduled backup completed in 32.4 seconds.
+2025-09-17 [WARNING] 192.168.1.20 User 'guest' requested resource /public/info.
+2025-05-01 [WARNING] 192.168.1.17 User 'guest' requested resource /public/info.
+2025-07-06 [INFO] 192.168.1.17 Scheduled backup completed in 32.4 seconds.
+2025-04-28 [INFO] 192.168.1.21 Backup failed: insufficient disk space.
+2025-01-11 [INFO] 192.168.1.12 Configuration file /etc/app/config.yaml updated.
+2025-06-11 [ERROR] 192.168.1.26 Service 'nginx' restarted successfully.
+2025-08-10 [INFO] 192.168.1.24 Network latency detected on 192.168.1.24.
+2025-04-15 [WARNING] 192.168.1.27 Configuration file /etc/app/config.yaml updated.
+2025-11-14 [WARNING] 192.168.1.16 Configuration file /etc/app/config.yaml updated.
+2025-06-01 [WARNING] 192.168.1.12 Failed to connect to database 'inventory'.
+2025-01-07 [INFO] 192.168.1.13 HTTP request from 192.168.1.13:200 GET /api/items 200 OK
+2025-04-08 [ERROR] 192.168.1.28 User 'guest' requested resource /public/info.
+2025-08-02 [WARNING] 192.168.1.21 Configuration file /etc/app/config.yaml updated.
+2025-06-15 [WARNING] 192.168.1.10 User 'admin' logged in successfully.
+2025-08-28 [ERROR] 192.168.1.22 Backup failed: insufficient disk space.
+2025-03-01 [WARNING] 192.168.1.20 Service 'nginx' restarted successfully.
+2025-01-05 [INFO] 192.168.1.13 Unexpected end of file while reading config.yaml.
+2025-10-20 [INFO] 192.168.1.13 User 'guest' requested resource /public/info.
+2025-11-23 [INFO] 192.168.1.29 Permission denied accessing /var/www/html.
+2025-04-20 [INFO] 192.168.1.14 Service 'nginx' restarted successfully.
+2025-01-09 [WARNING] 192.168.1.12 Unexpected end of file while reading config.yaml.
+2025-12-17 [INFO] 192.168.1.28 HTTP request from 192.168.1.28:200 GET /api/items 200 OK
+2025-06-20 [WARNING] 192.168.1.13 Permission denied accessing /var/www/html.
+2025-10-12 [INFO] 192.168.1.29 Low memory detected: only 512MB free.
+2025-09-03 [ERROR] 192.168.1.29 User 'guest' requested resource /public/info.
+2025-08-28 [WARNING] 192.168.1.25 Service 'nginx' restarted successfully.
+2025-09-26 [WARNING] 192.168.1.10 Database 'users' synchronized successfully.
+2025-01-26 [ERROR] 192.168.1.21 Service 'nginx' restarted successfully.
+2025-11-15 [ERROR] 192.168.1.15 Low memory detected: only 512MB free.
+2025-04-26 [WARNING] 192.168.1.27 Unexpected end of file while reading config.yaml.
+2025-09-23 [INFO] 192.168.1.12 Network latency detected on 192.168.1.12.
+2025-09-09 [INFO] 192.168.1.13 Network latency detected on 192.168.1.13.
+2025-05-11 [WARNING] 192.168.1.27 User 'guest' requested resource /public/info.
+2025-09-14 [INFO] 192.168.1.16 Unexpected end of file while reading config.yaml.
+2025-09-08 [WARNING] 192.168.1.27 Network latency detected on 192.168.1.27.
+2025-02-23 [INFO] 192.168.1.19 Unexpected end of file while reading config.yaml.
+2025-10-13 [INFO] 192.168.1.12 User 'guest' requested resource /public/info.
+2025-12-05 [WARNING] 192.168.1.28 Scheduled backup completed in 32.4 seconds.
+2025-07-08 [ERROR] 192.168.1.14 Scheduled backup completed in 32.4 seconds.
+2025-11-10 [INFO] 192.168.1.14 Scheduled backup completed in 32.4 seconds.
+2025-08-14 [WARNING] 192.168.1.19 Unexpected end of file while reading config.yaml.
+2025-05-19 [WARNING] 192.168.1.13 Network latency detected on 192.168.1.13.
+2025-07-14 [INFO] 192.168.1.27 Backup failed: insufficient disk space.
+2025-01-10 [WARNING] 192.168.1.29 Database 'users' synchronized successfully.
+2025-09-20 [INFO] 192.168.1.29 Backup failed: insufficient disk space.
+2025-11-05 [INFO] 192.168.1.28 Disk usage at 85% on /dev/sda1.
+2025-10-09 [ERROR] 192.168.1.21 Backup failed: insufficient disk space.
+2025-05-17 [INFO] 192.168.1.29 Unexpected end of file while reading config.yaml.
+2025-09-02 [INFO] 192.168.1.23 Disk usage at 85% on /dev/sda1.
+2025-08-27 [ERROR] 192.168.1.11 User 'guest' requested resource /public/info.
+2025-04-04 [ERROR] 192.168.1.17 Scheduled backup completed in 32.4 seconds.
+2025-05-07 [INFO] 192.168.1.22 CPU temperature high (87°C).
+2025-10-06 [WARNING] 192.168.1.24 Permission denied accessing /var/www/html.
+2025-01-12 [INFO] 192.168.1.23 Permission denied accessing /var/www/html.
+2025-12-05 [ERROR] 192.168.1.25 Database 'users' synchronized successfully.
+2025-07-26 [INFO] 192.168.1.19 Disk usage at 85% on /dev/sda1.
+2025-08-03 [ERROR] 192.168.1.21 Scheduled backup completed in 32.4 seconds.
+2025-07-14 [WARNING] 192.168.1.26 Failed to connect to database 'inventory'.
+2025-06-28 [WARNING] 192.168.1.24 HTTP request from 192.168.1.24:200 GET /api/items 200 OK
+2025-07-16 [INFO] 192.168.1.26 Disk usage at 85% on /dev/sda1.
+2025-08-01 [INFO] 192.168.1.11 Permission denied accessing /var/www/html.
+2025-10-21 [ERROR] 192.168.1.23 Failed to connect to database 'inventory'.
+2025-06-05 [WARNING] 192.168.1.23 Permission denied accessing /var/www/html.
+2025-11-08 [ERROR] 192.168.1.12 Scheduled backup completed in 32.4 seconds.
+2025-06-11 [ERROR] 192.168.1.18 Scheduled backup completed in 32.4 seconds.
+2025-04-14 [INFO] 192.168.1.20 User 'guest' requested resource /public/info.
+2025-07-24 [WARNING] 192.168.1.22 Database 'users' synchronized successfully.
+2025-07-26 [INFO] 192.168.1.25 Failed to connect to database 'inventory'.
+2025-12-03 [INFO] 192.168.1.23 User 'admin' logged in successfully.
+2025-07-27 [ERROR] 192.168.1.14 Permission denied accessing /var/www/html.
+2025-06-26 [ERROR] 192.168.1.15 Configuration file /etc/app/config.yaml updated.
+2025-10-17 [WARNING] 192.168.1.18 Disk usage at 85% on /dev/sda1.
+2025-11-17 [ERROR] 192.168.1.20 Configuration file /etc/app/config.yaml updated.
+2025-04-27 [ERROR] 192.168.1.25 Backup failed: insufficient disk space.
+2025-10-10 [INFO] 192.168.1.16 Scheduled backup completed in 32.4 seconds.
+2025-11-19 [INFO] 192.168.1.28 User 'guest' requested resource /public/info.
+2025-12-28 [INFO] 192.168.1.16 Database 'users' synchronized successfully.
+2025-11-22 [WARNING] 192.168.1.18 HTTP request from 192.168.1.18:200 GET /api/items 200 OK
+2025-01-16 [INFO] 192.168.1.14 Configuration file /etc/app/config.yaml updated.
+2025-12-19 [INFO] 192.168.1.16 HTTP request from 192.168.1.16:200 GET /api/items 200 OK
+2025-11-15 [ERROR] 192.168.1.14 Failed to connect to database 'inventory'.
+2025-06-22 [INFO] 192.168.1.29 Scheduled backup completed in 32.4 seconds.
+2025-10-06 [WARNING] 192.168.1.10 Permission denied accessing /var/www/html.
+2025-09-10 [INFO] 192.168.1.10 Disk usage at 85% on /dev/sda1.
+2025-05-14 [ERROR] 192.168.1.12 Low memory detected: only 512MB free.
+2025-05-10 [INFO] 192.168.1.18 HTTP request from 192.168.1.18:200 GET /api/items 200 OK
+2025-09-25 [WARNING] 192.168.1.15 Service 'nginx' restarted successfully.
+2025-02-04 [ERROR] 192.168.1.14 Low memory detected: only 512MB free.
+2025-11-16 [WARNING] 192.168.1.13 User 'admin' logged in successfully.
+2025-02-09 [WARNING] 192.168.1.13 Disk usage at 85% on /dev/sda1.
+2025-01-20 [INFO] 192.168.1.20 Scheduled backup completed in 32.4 seconds.
+2025-04-14 [ERROR] 192.168.1.10 Permission denied accessing /var/www/html.
+2025-04-12 [INFO] 192.168.1.23 Low memory detected: only 512MB free.
+2025-01-27 [WARNING] 192.168.1.29 Disk usage at 85% on /dev/sda1.
+2025-08-14 [INFO] 192.168.1.25 Service 'nginx' restarted successfully.
+2025-09-08 [WARNING] 192.168.1.24 Scheduled backup completed in 32.4 seconds.
+2025-10-03 [ERROR] 192.168.1.29 Backup failed: insufficient disk space.
+2025-05-21 [ERROR] 192.168.1.15 Service 'nginx' restarted successfully.
+2025-03-25 [INFO] 192.168.1.24 Database 'users' synchronized successfully.
+2025-02-18 [WARNING] 192.168.1.29 Low memory detected: only 512MB free.
+2025-04-20 [INFO] 192.168.1.22 Disk usage at 85% on /dev/sda1.
+2025-08-13 [INFO] 192.168.1.12 Low memory detected: only 512MB free.
+2025-06-14 [WARNING] 192.168.1.15 Scheduled backup completed in 32.4 seconds.
+2025-11-18 [ERROR] 192.168.1.28 CPU temperature high (87°C).
+2025-12-28 [WARNING] 192.168.1.16 CPU temperature high (87°C).
+2025-02-28 [INFO] 192.168.1.28 Permission denied accessing /var/www/html.
+2025-12-12 [INFO] 192.168.1.27 CPU temperature high (87°C).
+2025-10-26 [ERROR] 192.168.1.25 Backup failed: insufficient disk space.
+2025-11-15 [INFO] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-04-22 [INFO] 192.168.1.27 User 'guest' requested resource /public/info.
+2025-06-25 [ERROR] 192.168.1.24 Database 'users' synchronized successfully.
+2025-11-11 [ERROR] 192.168.1.23 Network latency detected on 192.168.1.23.
+2025-12-28 [WARNING] 192.168.1.10 Disk usage at 85% on /dev/sda1.
+2025-06-03 [WARNING] 192.168.1.22 User 'admin' logged in successfully.
+2025-09-22 [WARNING] 192.168.1.13 HTTP request from 192.168.1.13:200 GET /api/items 200 OK
+2025-05-16 [WARNING] 192.168.1.11 Permission denied accessing /var/www/html.
+2025-05-03 [WARNING] 192.168.1.22 User 'guest' requested resource /public/info.
+2025-07-07 [ERROR] 192.168.1.17 User 'guest' requested resource /public/info.
+2025-08-02 [ERROR] 192.168.1.11 Network latency detected on 192.168.1.11.
+2025-08-24 [INFO] 192.168.1.24 HTTP request from 192.168.1.24:200 GET /api/items 200 OK
+2025-10-02 [WARNING] 192.168.1.28 Configuration file /etc/app/config.yaml updated.
+2025-10-08 [WARNING] 192.168.1.13 Backup failed: insufficient disk space.
+2025-04-21 [INFO] 192.168.1.10 Configuration file /etc/app/config.yaml updated.
+2025-03-07 [INFO] 192.168.1.25 Low memory detected: only 512MB free.
+2025-05-16 [WARNING] 192.168.1.29 Backup failed: insufficient disk space.
+2025-03-19 [INFO] 192.168.1.13 Network latency detected on 192.168.1.13.
+2025-12-05 [INFO] 192.168.1.25 Service 'nginx' restarted successfully.
+2025-03-14 [ERROR] 192.168.1.12 User 'guest' requested resource /public/info.
+2025-04-02 [INFO] 192.168.1.28 User 'guest' requested resource /public/info.
+2025-06-25 [INFO] 192.168.1.13 Low memory detected: only 512MB free.
+2025-12-13 [WARNING] 192.168.1.24 Unexpected end of file while reading config.yaml.
+2025-05-24 [WARNING] 192.168.1.20 Disk usage at 85% on /dev/sda1.
+2025-02-17 [ERROR] 192.168.1.15 Permission denied accessing /var/www/html.
+2025-10-27 [ERROR] 192.168.1.22 Permission denied accessing /var/www/html.
+2025-11-22 [ERROR] 192.168.1.26 Failed to connect to database 'inventory'.
+2025-09-21 [INFO] 192.168.1.10 Low memory detected: only 512MB free.
+2025-04-22 [ERROR] 192.168.1.22 Permission denied accessing /var/www/html.
+2025-05-19 [INFO] 192.168.1.18 Permission denied accessing /var/www/html.
+2025-12-02 [INFO] 192.168.1.26 Scheduled backup completed in 32.4 seconds.
+2025-04-09 [WARNING] 192.168.1.23 Scheduled backup completed in 32.4 seconds.
+2025-06-05 [WARNING] 192.168.1.20 Unexpected end of file while reading config.yaml.
+2025-10-28 [WARNING] 192.168.1.15 Low memory detected: only 512MB free.
+2025-09-25 [INFO] 192.168.1.24 Unexpected end of file while reading config.yaml.
+2025-12-04 [INFO] 192.168.1.24 User 'guest' requested resource /public/info.
+2025-11-25 [WARNING] 192.168.1.12 User 'admin' logged in successfully.
+2025-01-08 [ERROR] 192.168.1.14 Network latency detected on 192.168.1.14.
+2025-12-01 [ERROR] 192.168.1.19 Disk usage at 85% on /dev/sda1.
+2025-02-14 [INFO] 192.168.1.21 Backup failed: insufficient disk space.
+2025-02-01 [INFO] 192.168.1.17 Unexpected end of file while reading config.yaml.
+2025-08-17 [INFO] 192.168.1.27 Permission denied accessing /var/www/html.
+2025-10-25 [WARNING] 192.168.1.21 Configuration file /etc/app/config.yaml updated.
+2025-01-11 [ERROR] 192.168.1.19 Backup failed: insufficient disk space.
+2025-12-18 [WARNING] 192.168.1.16 Scheduled backup completed in 32.4 seconds.
+2025-03-09 [WARNING] 192.168.1.28 User 'guest' requested resource /public/info.
+2025-06-15 [ERROR] 192.168.1.28 Permission denied accessing /var/www/html.
+2025-04-18 [ERROR] 192.168.1.29 User 'guest' requested resource /public/info.
+2025-11-27 [ERROR] 192.168.1.26 CPU temperature high (87°C).
+2025-08-15 [INFO] 192.168.1.25 Network latency detected on 192.168.1.25.
+2025-05-15 [INFO] 192.168.1.17 Network latency detected on 192.168.1.17.
+2025-12-11 [WARNING] 192.168.1.18 Low memory detected: only 512MB free.
+2025-06-21 [WARNING] 192.168.1.16 Backup failed: insufficient disk space.
+2025-04-15 [INFO] 192.168.1.25 Disk usage at 85% on /dev/sda1.
+2025-07-19 [INFO] 192.168.1.29 User 'guest' requested resource /public/info.
+2025-01-28 [WARNING] 192.168.1.21 CPU temperature high (87°C).
+2025-12-17 [ERROR] 192.168.1.11 Failed to connect to database 'inventory'.
+2025-07-23 [ERROR] 192.168.1.15 HTTP request from 192.168.1.15:200 GET /api/items 200 OK
+2025-12-14 [INFO] 192.168.1.18 Permission denied accessing /var/www/html.
+2025-08-27 [WARNING] 192.168.1.23 Scheduled backup completed in 32.4 seconds.
+2025-11-07 [ERROR] 192.168.1.22 Disk usage at 85% on /dev/sda1.
+2025-03-13 [ERROR] 192.168.1.19 Configuration file /etc/app/config.yaml updated.
+2025-02-01 [INFO] 192.168.1.13 Database 'users' synchronized successfully.
+2025-08-17 [ERROR] 192.168.1.24 CPU temperature high (87°C).
+2025-04-03 [WARNING] 192.168.1.10 Failed to connect to database 'inventory'.
+2025-07-12 [INFO] 192.168.1.14 Service 'nginx' restarted successfully.
+2025-04-13 [INFO] 192.168.1.28 Configuration file /etc/app/config.yaml updated.
+2025-09-25 [WARNING] 192.168.1.10 Network latency detected on 192.168.1.10.
+2025-06-15 [INFO] 192.168.1.19 Unexpected end of file while reading config.yaml.
+2025-06-21 [ERROR] 192.168.1.21 Permission denied accessing /var/www/html.
+2025-05-07 [ERROR] 192.168.1.13 Configuration file /etc/app/config.yaml updated.
+2025-02-16 [INFO] 192.168.1.26 HTTP request from 192.168.1.26:200 GET /api/items 200 OK
+2025-04-10 [ERROR] 192.168.1.14 Service 'nginx' restarted successfully.
+2025-09-11 [WARNING] 192.168.1.12 Unexpected end of file while reading config.yaml.
+2025-11-11 [ERROR] 192.168.1.14 User 'admin' logged in successfully.
+2025-04-16 [WARNING] 192.168.1.14 Database 'users' synchronized successfully.
+2025-11-01 [ERROR] 192.168.1.21 Network latency detected on 192.168.1.21.
+2025-02-21 [WARNING] 192.168.1.20 User 'guest' requested resource /public/info.
+2025-12-22 [WARNING] 192.168.1.17 User 'admin' logged in successfully.
+2025-06-09 [INFO] 192.168.1.21 Failed to connect to database 'inventory'.
+2025-07-12 [WARNING] 192.168.1.28 Disk usage at 85% on /dev/sda1.
+2025-02-19 [WARNING] 192.168.1.12 Configuration file /etc/app/config.yaml updated.
+2025-02-27 [ERROR] 192.168.1.14 CPU temperature high (87°C).
+2025-05-07 [ERROR] 192.168.1.14 CPU temperature high (87°C).
+2025-02-17 [WARNING] 192.168.1.17 Configuration file /etc/app/config.yaml updated.
+2025-03-23 [ERROR] 192.168.1.11 Backup failed: insufficient disk space.
+2025-07-24 [WARNING] 192.168.1.29 Disk usage at 85% on /dev/sda1.
+2025-02-21 [WARNING] 192.168.1.22 Failed to connect to database 'inventory'.
+2025-03-01 [INFO] 192.168.1.15 Permission denied accessing /var/www/html.
+2025-03-13 [ERROR] 192.168.1.23 User 'guest' requested resource /public/info.
+2025-12-13 [WARNING] 192.168.1.17 Low memory detected: only 512MB free.
+2025-02-14 [ERROR] 192.168.1.26 User 'admin' logged in successfully.
+2025-06-07 [WARNING] 192.168.1.12 HTTP request from 192.168.1.12:200 GET /api/items 200 OK
+2025-05-02 [WARNING] 192.168.1.18 Backup failed: insufficient disk space.
+2025-06-09 [ERROR] 192.168.1.24 Scheduled backup completed in 32.4 seconds.
+2025-10-13 [ERROR] 192.168.1.26 Service 'nginx' restarted successfully.
+2025-09-23 [INFO] 192.168.1.19 HTTP request from 192.168.1.19:200 GET /api/items 200 OK
+2025-03-08 [INFO] 192.168.1.27 Permission denied accessing /var/www/html.
+2025-11-27 [INFO] 192.168.1.24 User 'guest' requested resource /public/info.
+2025-05-06 [WARNING] 192.168.1.17 Network latency detected on 192.168.1.17.
+2025-12-03 [INFO] 192.168.1.29 Network latency detected on 192.168.1.29.
+2025-09-27 [INFO] 192.168.1.16 User 'guest' requested resource /public/info.
+2025-04-28 [WARNING] 192.168.1.26 Unexpected end of file while reading config.yaml.
+2025-10-14 [ERROR] 192.168.1.16 Network latency detected on 192.168.1.16.
+2025-10-02 [ERROR] 192.168.1.13 Database 'users' synchronized successfully.
+2025-11-17 [WARNING] 192.168.1.13 Unexpected end of file while reading config.yaml.
+2025-02-01 [WARNING] 192.168.1.22 Unexpected end of file while reading config.yaml.
+2025-10-14 [INFO] 192.168.1.21 Service 'nginx' restarted successfully.
+2025-07-06 [INFO] 192.168.1.13 CPU temperature high (87°C).
+2025-02-16 [ERROR] 192.168.1.14 User 'admin' logged in successfully.
+2025-06-16 [WARNING] 192.168.1.27 Low memory detected: only 512MB free.
+2025-08-05 [ERROR] 192.168.1.19 Unexpected end of file while reading config.yaml.
+2025-07-26 [WARNING] 192.168.1.29 Backup failed: insufficient disk space.
+2025-07-17 [ERROR] 192.168.1.20 CPU temperature high (87°C).
+2025-05-15 [INFO] 192.168.1.23 Permission denied accessing /var/www/html.
+2025-11-24 [WARNING] 192.168.1.21 Service 'nginx' restarted successfully.
+2025-03-17 [ERROR] 192.168.1.12 Low memory detected: only 512MB free.
+2025-11-06 [ERROR] 192.168.1.11 User 'guest' requested resource /public/info.
+2025-01-20 [ERROR] 192.168.1.28 CPU temperature high (87°C).
+2025-05-05 [ERROR] 192.168.1.28 Service 'nginx' restarted successfully.
+2025-05-01 [WARNING] 192.168.1.21 Service 'nginx' restarted successfully.
+2025-11-20 [INFO] 192.168.1.29 User 'admin' logged in successfully.
+2025-03-18 [ERROR] 192.168.1.22 Permission denied accessing /var/www/html.
+2025-01-15 [ERROR] 192.168.1.25 Disk usage at 85% on /dev/sda1.
+2025-06-11 [INFO] 192.168.1.14 Configuration file /etc/app/config.yaml updated.
+2025-07-19 [INFO] 192.168.1.18 Scheduled backup completed in 32.4 seconds.
+2025-04-13 [ERROR] 192.168.1.21 Service 'nginx' restarted successfully.
+2025-10-04 [INFO] 192.168.1.28 HTTP request from 192.168.1.28:200 GET /api/items 200 OK
+2025-06-10 [WARNING] 192.168.1.25 Permission denied accessing /var/www/html.
+2025-11-16 [ERROR] 192.168.1.26 Failed to connect to database 'inventory'.
+2025-09-25 [WARNING] 192.168.1.20 Low memory detected: only 512MB free.
+2025-02-24 [ERROR] 192.168.1.14 User 'admin' logged in successfully.
+2025-12-05 [ERROR] 192.168.1.29 CPU temperature high (87°C).
+2025-02-04 [WARNING] 192.168.1.19 Unexpected end of file while reading config.yaml.
+2025-02-09 [ERROR] 192.168.1.23 Backup failed: insufficient disk space.
+2025-01-01 [WARNING] 192.168.1.27 Low memory detected: only 512MB free.
+2025-11-11 [ERROR] 192.168.1.21 User 'guest' requested resource /public/info.
+2025-04-11 [WARNING] 192.168.1.12 Network latency detected on 192.168.1.12.
+2025-04-04 [WARNING] 192.168.1.21 Backup failed: insufficient disk space.
+2025-11-13 [WARNING] 192.168.1.26 Low memory detected: only 512MB free.
+2025-02-28 [WARNING] 192.168.1.24 Disk usage at 85% on /dev/sda1.
+2025-09-12 [ERROR] 192.168.1.24 Scheduled backup completed in 32.4 seconds.
+2025-06-15 [WARNING] 192.168.1.28 Backup failed: insufficient disk space.
+2025-05-18 [WARNING] 192.168.1.21 Low memory detected: only 512MB free.
+2025-02-26 [INFO] 192.168.1.24 Failed to connect to database 'inventory'.
+2025-09-08 [WARNING] 192.168.1.19 Failed to connect to database 'inventory'.
+2025-06-13 [INFO] 192.168.1.16 Network latency detected on 192.168.1.16.
+2025-06-18 [ERROR] 192.168.1.28 HTTP request from 192.168.1.28:200 GET /api/items 200 OK
+2025-11-17 [INFO] 192.168.1.12 Permission denied accessing /var/www/html.
+2025-05-19 [WARNING] 192.168.1.28 Scheduled backup completed in 32.4 seconds.
+2025-12-14 [WARNING] 192.168.1.16 Database 'users' synchronized successfully.
+2025-03-07 [WARNING] 192.168.1.28 CPU temperature high (87°C).
+2025-08-27 [WARNING] 192.168.1.11 Failed to connect to database 'inventory'.
+2025-05-25 [ERROR] 192.168.1.24 Disk usage at 85% on /dev/sda1.
+2025-01-25 [WARNING] 192.168.1.19 Scheduled backup completed in 32.4 seconds.
+2025-10-07 [INFO] 192.168.1.20 Scheduled backup completed in 32.4 seconds.
+2025-12-05 [INFO] 192.168.1.27 Unexpected end of file while reading config.yaml.
+2025-05-02 [ERROR] 192.168.1.25 Permission denied accessing /var/www/html.
+2025-09-19 [INFO] 192.168.1.16 Service 'nginx' restarted successfully.
+2025-01-11 [WARNING] 192.168.1.15 Service 'nginx' restarted successfully.
+2025-06-24 [ERROR] 192.168.1.17 Failed to connect to database 'inventory'.
+2025-06-15 [INFO] 192.168.1.20 Service 'nginx' restarted successfully.
+2025-09-21 [WARNING] 192.168.1.29 Failed to connect to database 'inventory'.
+2025-05-23 [INFO] 192.168.1.26 Low memory detected: only 512MB free.
+2025-09-05 [INFO] 192.168.1.22 User 'guest' requested resource /public/info.
+2025-11-12 [WARNING] 192.168.1.13 Disk usage at 85% on /dev/sda1.
+2025-07-22 [INFO] 192.168.1.14 User 'admin' logged in successfully.
+2025-12-28 [ERROR] 192.168.1.18 Failed to connect to database 'inventory'.
+2025-06-15 [WARNING] 192.168.1.11 Configuration file /etc/app/config.yaml updated.
+2025-03-10 [INFO] 192.168.1.12 Disk usage at 85% on /dev/sda1.
+2025-03-19 [WARNING] 192.168.1.27 Scheduled backup completed in 32.4 seconds.
+2025-05-20 [WARNING] 192.168.1.15 CPU temperature high (87°C).
+2025-07-17 [WARNING] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-06-01 [ERROR] 192.168.1.15 Configuration file /etc/app/config.yaml updated.
+2025-06-20 [WARNING] 192.168.1.26 Low memory detected: only 512MB free.
+2025-04-08 [INFO] 192.168.1.20 Low memory detected: only 512MB free.
+2025-04-22 [WARNING] 192.168.1.15 Configuration file /etc/app/config.yaml updated.
+2025-06-14 [WARNING] 192.168.1.21 Scheduled backup completed in 32.4 seconds.
+2025-04-23 [INFO] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-09-01 [INFO] 192.168.1.10 Disk usage at 85% on /dev/sda1.
+2025-01-28 [WARNING] 192.168.1.12 Permission denied accessing /var/www/html.
+2025-01-24 [INFO] 192.168.1.14 User 'admin' logged in successfully.
+2025-06-27 [INFO] 192.168.1.19 Scheduled backup completed in 32.4 seconds.
+2025-02-03 [INFO] 192.168.1.17 CPU temperature high (87°C).
+2025-08-09 [WARNING] 192.168.1.28 Backup failed: insufficient disk space.
+2025-04-04 [INFO] 192.168.1.18 Configuration file /etc/app/config.yaml updated.
+2025-05-15 [WARNING] 192.168.1.23 Failed to connect to database 'inventory'.
+2025-06-05 [ERROR] 192.168.1.23 User 'admin' logged in successfully.
+2025-12-11 [INFO] 192.168.1.24 Configuration file /etc/app/config.yaml updated.
+2025-01-02 [WARNING] 192.168.1.27 CPU temperature high (87°C).
+2025-01-19 [INFO] 192.168.1.12 Backup failed: insufficient disk space.
+2025-03-10 [WARNING] 192.168.1.14 Scheduled backup completed in 32.4 seconds.
+2025-01-04 [INFO] 192.168.1.19 Backup failed: insufficient disk space.
+2025-04-01 [ERROR] 192.168.1.20 Backup failed: insufficient disk space.
+2025-03-06 [INFO] 192.168.1.12 Low memory detected: only 512MB free.
+2025-06-21 [INFO] 192.168.1.14 Network latency detected on 192.168.1.14.
+2025-01-14 [INFO] 192.168.1.25 Backup failed: insufficient disk space.
+2025-01-23 [WARNING] 192.168.1.15 Unexpected end of file while reading config.yaml.
+2025-01-21 [WARNING] 192.168.1.18 Disk usage at 85% on /dev/sda1.
+2025-02-07 [INFO] 192.168.1.16 Service 'nginx' restarted successfully.
+2025-10-03 [WARNING] 192.168.1.12 Unexpected end of file while reading config.yaml.
+2025-08-19 [ERROR] 192.168.1.21 Disk usage at 85% on /dev/sda1.
+2025-09-25 [ERROR] 192.168.1.15 Backup failed: insufficient disk space.
+2025-07-19 [INFO] 192.168.1.27 Permission denied accessing /var/www/html.
+2025-04-08 [ERROR] 192.168.1.20 Database 'users' synchronized successfully.
+2025-11-05 [INFO] 192.168.1.12 Database 'users' synchronized successfully.
+2025-10-18 [ERROR] 192.168.1.10 Backup failed: insufficient disk space.
+2025-02-11 [ERROR] 192.168.1.13 Failed to connect to database 'inventory'.
+2025-08-28 [INFO] 192.168.1.29 CPU temperature high (87°C).
+2025-03-08 [WARNING] 192.168.1.22 Unexpected end of file while reading config.yaml.
+2025-10-11 [ERROR] 192.168.1.18 User 'admin' logged in successfully.
+2025-07-12 [INFO] 192.168.1.12 User 'guest' requested resource /public/info.
+2025-09-22 [ERROR] 192.168.1.18 Service 'nginx' restarted successfully.
+2025-05-03 [INFO] 192.168.1.26 Failed to connect to database 'inventory'.
+2025-01-17 [WARNING] 192.168.1.17 User 'admin' logged in successfully.
+2025-05-16 [WARNING] 192.168.1.27 HTTP request from 192.168.1.27:200 GET /api/items 200 OK
+2025-01-27 [ERROR] 192.168.1.13 Service 'nginx' restarted successfully.
+2025-09-21 [WARNING] 192.168.1.15 User 'admin' logged in successfully.
+2025-10-23 [ERROR] 192.168.1.14 HTTP request from 192.168.1.14:200 GET /api/items 200 OK
+2025-05-08 [INFO] 192.168.1.25 Disk usage at 85% on /dev/sda1.
+2025-05-06 [INFO] 192.168.1.13 Scheduled backup completed in 32.4 seconds.
+2025-10-05 [ERROR] 192.168.1.16 Database 'users' synchronized successfully.
+2025-03-06 [INFO] 192.168.1.11 Database 'users' synchronized successfully.
+2025-10-17 [INFO] 192.168.1.25 CPU temperature high (87°C).
+2025-11-04 [WARNING] 192.168.1.29 User 'guest' requested resource /public/info.
+2025-11-20 [INFO] 192.168.1.28 Scheduled backup completed in 32.4 seconds.
+2025-02-09 [ERROR] 192.168.1.14 Low memory detected: only 512MB free.
+2025-10-06 [ERROR] 192.168.1.20 Disk usage at 85% on /dev/sda1.
+2025-05-22 [WARNING] 192.168.1.15 Unexpected end of file while reading config.yaml.
+2025-08-06 [ERROR] 192.168.1.15 User 'guest' requested resource /public/info.
+2025-03-01 [INFO] 192.168.1.14 Database 'users' synchronized successfully.
+2025-11-10 [WARNING] 192.168.1.16 Configuration file /etc/app/config.yaml updated.
+2025-12-19 [ERROR] 192.168.1.24 Permission denied accessing /var/www/html.
+2025-10-02 [WARNING] 192.168.1.13 Low memory detected: only 512MB free.
+2025-04-06 [INFO] 192.168.1.28 User 'admin' logged in successfully.
+2025-03-04 [ERROR] 192.168.1.21 Disk usage at 85% on /dev/sda1.
+2025-01-02 [WARNING] 192.168.1.13 Failed to connect to database 'inventory'.
+2025-07-19 [INFO] 192.168.1.14 User 'admin' logged in successfully.
+2025-06-26 [ERROR] 192.168.1.25 Network latency detected on 192.168.1.25.
+2025-05-06 [ERROR] 192.168.1.25 Unexpected end of file while reading config.yaml.
+2025-10-24 [INFO] 192.168.1.23 Backup failed: insufficient disk space.
+2025-12-25 [WARNING] 192.168.1.25 HTTP request from 192.168.1.25:200 GET /api/items 200 OK
+2025-11-07 [ERROR] 192.168.1.12 Unexpected end of file while reading config.yaml.
+2025-09-04 [ERROR] 192.168.1.10 Failed to connect to database 'inventory'.
+2025-12-21 [ERROR] 192.168.1.18 HTTP request from 192.168.1.18:200 GET /api/items 200 OK
+2025-05-11 [WARNING] 192.168.1.17 Scheduled backup completed in 32.4 seconds.
+2025-02-10 [WARNING] 192.168.1.11 HTTP request from 192.168.1.11:200 GET /api/items 200 OK
+2025-08-28 [INFO] 192.168.1.18 HTTP request from 192.168.1.18:200 GET /api/items 200 OK
+2025-08-12 [ERROR] 192.168.1.15 Permission denied accessing /var/www/html.
+2025-02-23 [ERROR] 192.168.1.18 Backup failed: insufficient disk space.
+2025-03-06 [INFO] 192.168.1.27 Disk usage at 85% on /dev/sda1.
+2025-11-21 [WARNING] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-04-03 [INFO] 192.168.1.11 User 'admin' logged in successfully.
+2025-11-09 [INFO] 192.168.1.25 Permission denied accessing /var/www/html.
+2025-11-14 [INFO] 192.168.1.27 Unexpected end of file while reading config.yaml.
+2025-11-24 [INFO] 192.168.1.17 Backup failed: insufficient disk space.
+2025-02-18 [WARNING] 192.168.1.14 Failed to connect to database 'inventory'.
+2025-04-07 [WARNING] 192.168.1.21 User 'guest' requested resource /public/info.
+2025-09-25 [ERROR] 192.168.1.25 Configuration file /etc/app/config.yaml updated.
+2025-10-24 [ERROR] 192.168.1.17 Failed to connect to database 'inventory'.
+2025-05-03 [INFO] 192.168.1.20 Failed to connect to database 'inventory'.
+2025-06-07 [WARNING] 192.168.1.26 Failed to connect to database 'inventory'.
+2025-03-07 [INFO] 192.168.1.23 Failed to connect to database 'inventory'.
+2025-08-14 [INFO] 192.168.1.13 Service 'nginx' restarted successfully.
+2025-07-22 [WARNING] 192.168.1.24 Unexpected end of file while reading config.yaml.
+2025-09-19 [ERROR] 192.168.1.11 User 'admin' logged in successfully.
+2025-01-01 [WARNING] 192.168.1.14 CPU temperature high (87°C).
+2025-09-15 [WARNING] 192.168.1.23 Failed to connect to database 'inventory'.
+2025-11-18 [ERROR] 192.168.1.25 Scheduled backup completed in 32.4 seconds.
+2025-07-14 [ERROR] 192.168.1.10 Disk usage at 85% on /dev/sda1.
+2025-01-24 [ERROR] 192.168.1.28 User 'admin' logged in successfully.
+2025-11-01 [WARNING] 192.168.1.25 Network latency detected on 192.168.1.25.
+2025-01-13 [WARNING] 192.168.1.26 Unexpected end of file while reading config.yaml.
+2025-08-27 [ERROR] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-01-28 [ERROR] 192.168.1.27 Failed to connect to database 'inventory'.
+2025-01-13 [INFO] 192.168.1.13 Service 'nginx' restarted successfully.
+2025-12-17 [WARNING] 192.168.1.18 Unexpected end of file while reading config.yaml.
+2025-02-23 [ERROR] 192.168.1.18 CPU temperature high (87°C).
+2025-11-17 [ERROR] 192.168.1.26 Unexpected end of file while reading config.yaml.
+2025-10-01 [INFO] 192.168.1.14 CPU temperature high (87°C).
+2025-09-26 [WARNING] 192.168.1.22 User 'admin' logged in successfully.
+2025-10-13 [INFO] 192.168.1.21 Database 'users' synchronized successfully.
+2025-09-12 [INFO] 192.168.1.11 User 'admin' logged in successfully.
+2025-09-12 [WARNING] 192.168.1.16 User 'admin' logged in successfully.
+2025-03-23 [INFO] 192.168.1.20 HTTP request from 192.168.1.20:200 GET /api/items 200 OK
+2025-12-03 [INFO] 192.168.1.16 Configuration file /etc/app/config.yaml updated.
+2025-08-27 [WARNING] 192.168.1.10 User 'guest' requested resource /public/info.
+2025-05-22 [ERROR] 192.168.1.14 Service 'nginx' restarted successfully.
+2025-05-26 [WARNING] 192.168.1.18 CPU temperature high (87°C).
+2025-08-19 [INFO] 192.168.1.13 Configuration file /etc/app/config.yaml updated.
+2025-06-04 [INFO] 192.168.1.27 Configuration file /etc/app/config.yaml updated.
+2025-07-18 [ERROR] 192.168.1.17 Configuration file /etc/app/config.yaml updated.
+2025-07-15 [ERROR] 192.168.1.24 Failed to connect to database 'inventory'.
+2025-12-19 [ERROR] 192.168.1.18 Scheduled backup completed in 32.4 seconds.
+2025-11-18 [INFO] 192.168.1.19 Scheduled backup completed in 32.4 seconds.
+2025-09-08 [ERROR] 192.168.1.12 HTTP request from 192.168.1.12:200 GET /api/items 200 OK
+2025-05-19 [ERROR] 192.168.1.14 Failed to connect to database 'inventory'.
+2025-11-15 [ERROR] 192.168.1.11 User 'admin' logged in successfully.
+2025-12-17 [INFO] 192.168.1.24 Low memory detected: only 512MB free.
+2025-09-08 [ERROR] 192.168.1.21 Scheduled backup completed in 32.4 seconds.
+2025-05-27 [WARNING] 192.168.1.22 Failed to connect to database 'inventory'.
+2025-12-07 [INFO] 192.168.1.13 Unexpected end of file while reading config.yaml.
+2025-09-17 [ERROR] 192.168.1.28 Network latency detected on 192.168.1.28.
+2025-07-26 [ERROR] 192.168.1.11 Failed to connect to database 'inventory'.
+2025-11-09 [INFO] 192.168.1.11 Permission denied accessing /var/www/html.
+2025-01-26 [ERROR] 192.168.1.20 Unexpected end of file while reading config.yaml.
+2025-09-10 [ERROR] 192.168.1.22 User 'admin' logged in successfully.
+2025-10-03 [WARNING] 192.168.1.14 Configuration file /etc/app/config.yaml updated.
+2025-07-15 [INFO] 192.168.1.22 Low memory detected: only 512MB free.
+2025-11-02 [ERROR] 192.168.1.26 CPU temperature high (87°C).
+2025-10-09 [INFO] 192.168.1.14 Disk usage at 85% on /dev/sda1.
+2025-04-18 [ERROR] 192.168.1.27 Backup failed: insufficient disk space.
+2025-03-20 [INFO] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-07-01 [WARNING] 192.168.1.29 Disk usage at 85% on /dev/sda1.
+2025-01-01 [INFO] 192.168.1.29 Failed to connect to database 'inventory'.
+2025-01-28 [ERROR] 192.168.1.17 Failed to connect to database 'inventory'.
+2025-08-05 [WARNING] 192.168.1.11 User 'guest' requested resource /public/info.
+2025-07-22 [INFO] 192.168.1.28 CPU temperature high (87°C).
+2025-04-25 [WARNING] 192.168.1.13 Disk usage at 85% on /dev/sda1.
+2025-03-26 [ERROR] 192.168.1.20 Failed to connect to database 'inventory'.
+2025-10-13 [INFO] 192.168.1.15 Low memory detected: only 512MB free.
+2025-02-10 [INFO] 192.168.1.18 Low memory detected: only 512MB free.
+2025-09-17 [WARNING] 192.168.1.14 CPU temperature high (87°C).
+2025-07-07 [ERROR] 192.168.1.16 User 'guest' requested resource /public/info.
+2025-11-07 [INFO] 192.168.1.11 User 'guest' requested resource /public/info.
+2025-06-15 [INFO] 192.168.1.12 Network latency detected on 192.168.1.12.
+2025-04-28 [WARNING] 192.168.1.24 Scheduled backup completed in 32.4 seconds.
+2025-06-06 [INFO] 192.168.1.24 Network latency detected on 192.168.1.24.
+2025-08-06 [INFO] 192.168.1.19 Database 'users' synchronized successfully.
+2025-02-28 [WARNING] 192.168.1.19 Low memory detected: only 512MB free.
+2025-03-12 [INFO] 192.168.1.10 Disk usage at 85% on /dev/sda1.
+2025-11-10 [WARNING] 192.168.1.26 Database 'users' synchronized successfully.
+2025-02-09 [WARNING] 192.168.1.28 Failed to connect to database 'inventory'.
+2025-03-13 [ERROR] 192.168.1.20 Low memory detected: only 512MB free.
+2025-04-20 [WARNING] 192.168.1.23 Network latency detected on 192.168.1.23.
+2025-03-17 [INFO] 192.168.1.16 Permission denied accessing /var/www/html.
+2025-03-23 [ERROR] 192.168.1.24 Low memory detected: only 512MB free.
+2025-02-18 [ERROR] 192.168.1.27 User 'admin' logged in successfully.
+2025-07-21 [ERROR] 192.168.1.10 Database 'users' synchronized successfully.
+2025-03-06 [INFO] 192.168.1.13 Low memory detected: only 512MB free.
+2025-02-26 [ERROR] 192.168.1.17 CPU temperature high (87°C).
+2025-07-23 [INFO] 192.168.1.27 Service 'nginx' restarted successfully.
+2025-05-09 [INFO] 192.168.1.10 Service 'nginx' restarted successfully.
+2025-12-27 [INFO] 192.168.1.11 User 'guest' requested resource /public/info.
+2025-02-09 [WARNING] 192.168.1.22 Service 'nginx' restarted successfully.
+2025-06-14 [INFO] 192.168.1.10 Disk usage at 85% on /dev/sda1.
+2025-10-10 [INFO] 192.168.1.29 Unexpected end of file while reading config.yaml.
+2025-01-25 [WARNING] 192.168.1.17 Failed to connect to database 'inventory'.
+2025-08-01 [WARNING] 192.168.1.12 Failed to connect to database 'inventory'.
+2025-08-04 [WARNING] 192.168.1.29 Failed to connect to database 'inventory'.
+2025-05-05 [WARNING] 192.168.1.25 Backup failed: insufficient disk space.
+2025-11-12 [INFO] 192.168.1.19 CPU temperature high (87°C).
+2025-07-24 [ERROR] 192.168.1.25 HTTP request from 192.168.1.25:200 GET /api/items 200 OK
+2025-07-16 [INFO] 192.168.1.19 Service 'nginx' restarted successfully.
+2025-11-03 [INFO] 192.168.1.28 User 'guest' requested resource /public/info.
+2025-01-03 [ERROR] 192.168.1.15 Failed to connect to database 'inventory'.
+2025-08-11 [ERROR] 192.168.1.11 HTTP request from 192.168.1.11:200 GET /api/items 200 OK
+2025-07-09 [INFO] 192.168.1.18 Database 'users' synchronized successfully.
+2025-01-26 [INFO] 192.168.1.13 Scheduled backup completed in 32.4 seconds.
+2025-03-28 [WARNING] 192.168.1.26 Low memory detected: only 512MB free.
+2025-11-17 [ERROR] 192.168.1.20 User 'guest' requested resource /public/info.
+2025-12-07 [ERROR] 192.168.1.28 Configuration file /etc/app/config.yaml updated.
+2025-09-12 [INFO] 192.168.1.12 Unexpected end of file while reading config.yaml.
+2025-11-09 [WARNING] 192.168.1.26 Failed to connect to database 'inventory'.
+2025-02-19 [ERROR] 192.168.1.24 Low memory detected: only 512MB free.
+2025-07-24 [INFO] 192.168.1.15 Unexpected end of file while reading config.yaml.
+2025-09-18 [WARNING] 192.168.1.29 Scheduled backup completed in 32.4 seconds.
+2025-09-14 [INFO] 192.168.1.12 Failed to connect to database 'inventory'.
+2025-11-14 [ERROR] 192.168.1.25 Network latency detected on 192.168.1.25.
+2025-10-20 [ERROR] 192.168.1.28 Configuration file /etc/app/config.yaml updated.
+2025-02-16 [WARNING] 192.168.1.28 Database 'users' synchronized successfully.
+2025-07-17 [ERROR] 192.168.1.23 Service 'nginx' restarted successfully.
+2025-01-19 [WARNING] 192.168.1.23 User 'guest' requested resource /public/info.
+2025-06-16 [WARNING] 192.168.1.25 Network latency detected on 192.168.1.25.
+2025-11-11 [WARNING] 192.168.1.27 Configuration file /etc/app/config.yaml updated.
+2025-02-12 [INFO] 192.168.1.25 Configuration file /etc/app/config.yaml updated.
+2025-09-10 [ERROR] 192.168.1.28 Low memory detected: only 512MB free.
+2025-06-05 [WARNING] 192.168.1.29 HTTP request from 192.168.1.29:200 GET /api/items 200 OK
+2025-12-24 [INFO] 192.168.1.18 Disk usage at 85% on /dev/sda1.
+2025-04-07 [INFO] 192.168.1.19 Failed to connect to database 'inventory'.
+2025-08-23 [INFO] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-01-10 [ERROR] 192.168.1.10 User 'admin' logged in successfully.
+2025-09-02 [WARNING] 192.168.1.10 Failed to connect to database 'inventory'.
+2025-03-18 [WARNING] 192.168.1.15 Configuration file /etc/app/config.yaml updated.
+2025-09-21 [WARNING] 192.168.1.25 Scheduled backup completed in 32.4 seconds.
+2025-07-15 [ERROR] 192.168.1.15 User 'guest' requested resource /public/info.
+2025-04-25 [INFO] 192.168.1.16 Disk usage at 85% on /dev/sda1.
+2025-12-22 [ERROR] 192.168.1.20 Backup failed: insufficient disk space.
+2025-05-04 [WARNING] 192.168.1.29 Failed to connect to database 'inventory'.
+2025-08-15 [WARNING] 192.168.1.22 Configuration file /etc/app/config.yaml updated.
+2025-12-15 [INFO] 192.168.1.11 CPU temperature high (87°C).
+2025-04-15 [INFO] 192.168.1.21 Backup failed: insufficient disk space.
+2025-11-09 [WARNING] 192.168.1.20 Permission denied accessing /var/www/html.
+2025-04-17 [INFO] 192.168.1.18 Backup failed: insufficient disk space.
+2025-08-22 [WARNING] 192.168.1.14 Failed to connect to database 'inventory'.
+2025-06-16 [WARNING] 192.168.1.17 Backup failed: insufficient disk space.
+2025-12-24 [ERROR] 192.168.1.17 HTTP request from 192.168.1.17:200 GET /api/items 200 OK
+2025-02-01 [WARNING] 192.168.1.25 User 'guest' requested resource /public/info.
+2025-05-13 [ERROR] 192.168.1.19 User 'guest' requested resource /public/info.
+2025-05-15 [ERROR] 192.168.1.20 Service 'nginx' restarted successfully.
+2025-03-07 [INFO] 192.168.1.14 Failed to connect to database 'inventory'.
+2025-09-10 [WARNING] 192.168.1.20 Unexpected end of file while reading config.yaml.
+2025-08-20 [ERROR] 192.168.1.25 Database 'users' synchronized successfully.
+2025-01-20 [ERROR] 192.168.1.29 Scheduled backup completed in 32.4 seconds.
+2025-10-23 [INFO] 192.168.1.14 User 'guest' requested resource /public/info.
+2025-02-06 [INFO] 192.168.1.10 Network latency detected on 192.168.1.10.
+2025-05-27 [WARNING] 192.168.1.10 Backup failed: insufficient disk space.
+2025-07-07 [ERROR] 192.168.1.26 Network latency detected on 192.168.1.26.
+2025-09-22 [INFO] 192.168.1.27 Network latency detected on 192.168.1.27.
+2025-08-17 [WARNING] 192.168.1.22 Network latency detected on 192.168.1.22.
+2025-05-06 [WARNING] 192.168.1.13 Permission denied accessing /var/www/html.
+2025-10-28 [ERROR] 192.168.1.11 Configuration file /etc/app/config.yaml updated.
+2025-09-25 [INFO] 192.168.1.26 Disk usage at 85% on /dev/sda1.
+2025-05-15 [INFO] 192.168.1.10 Permission denied accessing /var/www/html.
+2025-04-25 [WARNING] 192.168.1.22 User 'guest' requested resource /public/info.
+2025-06-17 [ERROR] 192.168.1.24 Service 'nginx' restarted successfully.
+2025-01-04 [INFO] 192.168.1.11 Scheduled backup completed in 32.4 seconds.
+2025-04-20 [ERROR] 192.168.1.14 CPU temperature high (87°C).
+2025-06-10 [INFO] 192.168.1.18 User 'admin' logged in successfully.
+2025-01-13 [ERROR] 192.168.1.13 CPU temperature high (87°C).
+2025-02-13 [INFO] 192.168.1.12 Configuration file /etc/app/config.yaml updated.
+2025-08-15 [ERROR] 192.168.1.18 Permission denied accessing /var/www/html.
+2025-03-17 [ERROR] 192.168.1.24 User 'guest' requested resource /public/info.
+2025-11-23 [INFO] 192.168.1.16 Permission denied accessing /var/www/html.
+2025-12-05 [ERROR] 192.168.1.24 Backup failed: insufficient disk space.
+2025-12-12 [WARNING] 192.168.1.10 Unexpected end of file while reading config.yaml.
+2025-08-10 [WARNING] 192.168.1.17 Failed to connect to database 'inventory'.
+2025-08-18 [WARNING] 192.168.1.16 Unexpected end of file while reading config.yaml.
+2025-04-19 [WARNING] 192.168.1.19 User 'admin' logged in successfully.
+2025-08-14 [ERROR] 192.168.1.27 Failed to connect to database 'inventory'.
+2025-11-09 [INFO] 192.168.1.13 Service 'nginx' restarted successfully.
+2025-01-09 [INFO] 192.168.1.14 Backup failed: insufficient disk space.
+2025-04-09 [INFO] 192.168.1.17 Failed to connect to database 'inventory'.
+2025-12-04 [INFO] 192.168.1.28 Disk usage at 85% on /dev/sda1.
+2025-11-01 [WARNING] 192.168.1.13 CPU temperature high (87°C).
+2025-12-10 [WARNING] 192.168.1.20 Service 'nginx' restarted successfully.
+2025-04-13 [ERROR] 192.168.1.13 User 'guest' requested resource /public/info.
+2025-05-19 [INFO] 192.168.1.13 Permission denied accessing /var/www/html.
+2025-05-27 [ERROR] 192.168.1.14 Configuration file /etc/app/config.yaml updated.
+2025-02-11 [INFO] 192.168.1.11 User 'admin' logged in successfully.
+2025-06-12 [WARNING] 192.168.1.24 Disk usage at 85% on /dev/sda1.
+2025-04-27 [ERROR] 192.168.1.15 Database 'users' synchronized successfully.
+2025-08-21 [WARNING] 192.168.1.13 Configuration file /etc/app/config.yaml updated.
+2025-12-17 [WARNING] 192.168.1.13 Permission denied accessing /var/www/html.
+2025-10-17 [INFO] 192.168.1.16 Database 'users' synchronized successfully.
+2025-01-08 [ERROR] 192.168.1.21 Permission denied accessing /var/www/html.
+2025-02-17 [WARNING] 192.168.1.22 Disk usage at 85% on /dev/sda1.
+2025-01-03 [ERROR] 192.168.1.26 Service 'nginx' restarted successfully.
+2025-04-21 [INFO] 192.168.1.11 Network latency detected on 192.168.1.11.
+2025-11-24 [ERROR] 192.168.1.24 Configuration file /etc/app/config.yaml updated.
+2025-09-19 [INFO] 192.168.1.20 Low memory detected: only 512MB free.
+2025-02-14 [WARNING] 192.168.1.28 Failed to connect to database 'inventory'.
+2025-12-16 [WARNING] 192.168.1.10 Backup failed: insufficient disk space.
+2025-11-19 [INFO] 192.168.1.13 Scheduled backup completed in 32.4 seconds.
+2025-12-02 [WARNING] 192.168.1.29 CPU temperature high (87°C).
+2025-04-21 [ERROR] 192.168.1.25 Low memory detected: only 512MB free.
+2025-05-02 [ERROR] 192.168.1.11 Disk usage at 85% on /dev/sda1.
+2025-11-22 [ERROR] 192.168.1.26 Low memory detected: only 512MB free.
+2025-09-16 [ERROR] 192.168.1.25 Unexpected end of file while reading config.yaml.
+2025-08-18 [ERROR] 192.168.1.14 Database 'users' synchronized successfully.
+2025-12-09 [ERROR] 192.168.1.22 Backup failed: insufficient disk space.
+2025-05-15 [WARNING] 192.168.1.13 Database 'users' synchronized successfully.
+2025-11-03 [WARNING] 192.168.1.26 Disk usage at 85% on /dev/sda1.
+2025-02-05 [ERROR] 192.168.1.17 Network latency detected on 192.168.1.17.
+2025-10-27 [ERROR] 192.168.1.24 Low memory detected: only 512MB free.
+2025-11-13 [INFO] 192.168.1.29 Configuration file /etc/app/config.yaml updated.
+2025-12-07 [ERROR] 192.168.1.13 Database 'users' synchronized successfully.
+2025-11-11 [ERROR] 192.168.1.29 Permission denied accessing /var/www/html.
+2025-03-09 [INFO] 192.168.1.12 User 'admin' logged in successfully.
+2025-02-07 [INFO] 192.168.1.21 Backup failed: insufficient disk space.
+2025-02-21 [ERROR] 192.168.1.25 User 'guest' requested resource /public/info.
+2025-11-26 [WARNING] 192.168.1.15 Network latency detected on 192.168.1.15.
+2025-05-28 [INFO] 192.168.1.27 Backup failed: insufficient disk space.
+2025-07-20 [INFO] 192.168.1.24 Service 'nginx' restarted successfully.
+2025-01-05 [WARNING] 192.168.1.15 Scheduled backup completed in 32.4 seconds.
+2025-06-01 [WARNING] 192.168.1.11 Configuration file /etc/app/config.yaml updated.
+2025-06-11 [INFO] 192.168.1.21 Database 'users' synchronized successfully.
+2025-06-24 [ERROR] 192.168.1.26 Disk usage at 85% on /dev/sda1.
+2025-02-08 [WARNING] 192.168.1.19 HTTP request from 192.168.1.19:200 GET /api/items 200 OK
+2025-06-19 [WARNING] 192.168.1.19 Disk usage at 85% on /dev/sda1.
+2025-01-26 [INFO] 192.168.1.15 User 'admin' logged in successfully.
+2025-03-03 [WARNING] 192.168.1.27 Unexpected end of file while reading config.yaml.
+2025-12-17 [WARNING] 192.168.1.15 Backup failed: insufficient disk space.
+2025-05-02 [INFO] 192.168.1.16 Service 'nginx' restarted successfully.
+2025-04-08 [ERROR] 192.168.1.17 Backup failed: insufficient disk space.
+2025-07-11 [INFO] 192.168.1.26 Backup failed: insufficient disk space.
+2025-11-17 [INFO] 192.168.1.16 Failed to connect to database 'inventory'.
+2025-02-19 [INFO] 192.168.1.28 Service 'nginx' restarted successfully.
+2025-12-26 [ERROR] 192.168.1.13 Backup failed: insufficient disk space.
+2025-01-05 [INFO] 192.168.1.18 Failed to connect to database 'inventory'.
+2025-09-21 [ERROR] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-11-08 [WARNING] 192.168.1.10 User 'guest' requested resource /public/info.
+2025-06-21 [INFO] 192.168.1.10 Service 'nginx' restarted successfully.
+2025-10-20 [WARNING] 192.168.1.14 CPU temperature high (87°C).
+2025-11-04 [ERROR] 192.168.1.22 Low memory detected: only 512MB free.
+2025-12-06 [INFO] 192.168.1.24 Failed to connect to database 'inventory'.
+2025-09-06 [ERROR] 192.168.1.22 Failed to connect to database 'inventory'.
+2025-05-25 [WARNING] 192.168.1.24 Configuration file /etc/app/config.yaml updated.
+2025-08-02 [ERROR] 192.168.1.15 Low memory detected: only 512MB free.
+2025-03-16 [ERROR] 192.168.1.19 Database 'users' synchronized successfully.
+2025-05-26 [INFO] 192.168.1.26 User 'guest' requested resource /public/info.
+2025-11-19 [WARNING] 192.168.1.17 HTTP request from 192.168.1.17:200 GET /api/items 200 OK
+2025-07-06 [ERROR] 192.168.1.25 Scheduled backup completed in 32.4 seconds.
+2025-07-01 [WARNING] 192.168.1.17 Database 'users' synchronized successfully.
+2025-09-08 [ERROR] 192.168.1.16 User 'guest' requested resource /public/info.
+2025-01-01 [ERROR] 192.168.1.25 Network latency detected on 192.168.1.25.
+2025-07-22 [WARNING] 192.168.1.27 Failed to connect to database 'inventory'.
+2025-04-04 [INFO] 192.168.1.12 Low memory detected: only 512MB free.
+2025-02-01 [INFO] 192.168.1.15 Service 'nginx' restarted successfully.
+2025-10-20 [ERROR] 192.168.1.19 Network latency detected on 192.168.1.19.
+2025-05-04 [WARNING] 192.168.1.27 Database 'users' synchronized successfully.
+2025-12-16 [ERROR] 192.168.1.29 HTTP request from 192.168.1.29:200 GET /api/items 200 OK
+2025-08-13 [WARNING] 192.168.1.25 Unexpected end of file while reading config.yaml.
+2025-09-21 [INFO] 192.168.1.24 Configuration file /etc/app/config.yaml updated.
+2025-11-19 [INFO] 192.168.1.10 Unexpected end of file while reading config.yaml.
+2025-03-28 [WARNING] 192.168.1.24 Service 'nginx' restarted successfully.
+2025-07-04 [ERROR] 192.168.1.16 Service 'nginx' restarted successfully.
+2025-06-04 [INFO] 192.168.1.16 Database 'users' synchronized successfully.
+2025-10-13 [INFO] 192.168.1.13 Permission denied accessing /var/www/html.
+2025-02-09 [WARNING] 192.168.1.20 Permission denied accessing /var/www/html.
+2025-03-25 [WARNING] 192.168.1.15 Network latency detected on 192.168.1.15.
+2025-02-21 [WARNING] 192.168.1.26 Backup failed: insufficient disk space.
+2025-02-20 [INFO] 192.168.1.16 CPU temperature high (87°C).
+2025-10-09 [INFO] 192.168.1.25 Permission denied accessing /var/www/html.
+2025-05-06 [WARNING] 192.168.1.15 Network latency detected on 192.168.1.15.
+2025-02-23 [WARNING] 192.168.1.14 Database 'users' synchronized successfully.
+2025-04-12 [ERROR] 192.168.1.11 Unexpected end of file while reading config.yaml.
+2025-09-07 [INFO] 192.168.1.17 Failed to connect to database 'inventory'.
+2025-10-23 [INFO] 192.168.1.21 Scheduled backup completed in 32.4 seconds.
+2025-02-15 [ERROR] 192.168.1.15 Failed to connect to database 'inventory'.
+2025-03-11 [INFO] 192.168.1.12 Service 'nginx' restarted successfully.
+2025-03-16 [WARNING] 192.168.1.21 Unexpected end of file while reading config.yaml.
+2025-02-06 [WARNING] 192.168.1.24 Service 'nginx' restarted successfully.
+2025-08-04 [ERROR] 192.168.1.22 Permission denied accessing /var/www/html.
+2025-04-08 [WARNING] 192.168.1.17 CPU temperature high (87°C).
+2025-07-06 [ERROR] 192.168.1.19 Service 'nginx' restarted successfully.
+2025-01-09 [ERROR] 192.168.1.23 Permission denied accessing /var/www/html.
+2025-05-27 [WARNING] 192.168.1.15 Database 'users' synchronized successfully.
+2025-06-03 [WARNING] 192.168.1.12 Service 'nginx' restarted successfully.
+2025-02-26 [ERROR] 192.168.1.27 Database 'users' synchronized successfully.
+2025-09-03 [INFO] 192.168.1.22 Disk usage at 85% on /dev/sda1.
+2025-07-11 [INFO] 192.168.1.29 Database 'users' synchronized successfully.
+2025-05-26 [ERROR] 192.168.1.15 Scheduled backup completed in 32.4 seconds.
+2025-10-10 [WARNING] 192.168.1.24 Failed to connect to database 'inventory'.
+2025-12-13 [WARNING] 192.168.1.19 Network latency detected on 192.168.1.19.
+2025-07-08 [INFO] 192.168.1.27 Failed to connect to database 'inventory'.
+2025-03-01 [INFO] 192.168.1.11 Configuration file /etc/app/config.yaml updated.
+2025-04-06 [ERROR] 192.168.1.16 Backup failed: insufficient disk space.
+2025-11-21 [WARNING] 192.168.1.23 Disk usage at 85% on /dev/sda1.
+2025-07-06 [WARNING] 192.168.1.28 Service 'nginx' restarted successfully.
+2025-10-10 [WARNING] 192.168.1.27 HTTP request from 192.168.1.27:200 GET /api/items 200 OK
+2025-10-03 [INFO] 192.168.1.22 CPU temperature high (87°C).
+2025-04-21 [ERROR] 192.168.1.20 User 'admin' logged in successfully.
+2025-06-08 [INFO] 192.168.1.20 Unexpected end of file while reading config.yaml.
+2025-01-16 [INFO] 192.168.1.11 Backup failed: insufficient disk space.
+2025-12-04 [WARNING] 192.168.1.22 Failed to connect to database 'inventory'.
+2025-09-08 [ERROR] 192.168.1.21 Scheduled backup completed in 32.4 seconds.
+2025-12-15 [INFO] 192.168.1.23 Backup failed: insufficient disk space.
+2025-05-19 [INFO] 192.168.1.16 Network latency detected on 192.168.1.16.
+2025-05-10 [ERROR] 192.168.1.26 User 'guest' requested resource /public/info.
+2025-03-01 [ERROR] 192.168.1.21 Database 'users' synchronized successfully.
+2025-04-27 [WARNING] 192.168.1.13 Disk usage at 85% on /dev/sda1.
+2025-10-17 [INFO] 192.168.1.16 User 'guest' requested resource /public/info.
+2025-12-14 [WARNING] 192.168.1.23 Failed to connect to database 'inventory'.
+2025-11-12 [WARNING] 192.168.1.22 Database 'users' synchronized successfully.
+2025-11-14 [INFO] 192.168.1.27 CPU temperature high (87°C).
+2025-09-03 [INFO] 192.168.1.12 Scheduled backup completed in 32.4 seconds.
+2025-12-03 [ERROR] 192.168.1.26 Scheduled backup completed in 32.4 seconds.
+2025-08-12 [ERROR] 192.168.1.19 Scheduled backup completed in 32.4 seconds.
+2025-12-14 [ERROR] 192.168.1.26 Unexpected end of file while reading config.yaml.
+2025-08-20 [ERROR] 192.168.1.16 Disk usage at 85% on /dev/sda1.
+2025-11-06 [ERROR] 192.168.1.12 CPU temperature high (87°C).
+2025-06-04 [WARNING] 192.168.1.26 Failed to connect to database 'inventory'.
+2025-04-22 [WARNING] 192.168.1.23 User 'guest' requested resource /public/info.
+2025-10-04 [WARNING] 192.168.1.29 Disk usage at 85% on /dev/sda1.
+2025-12-20 [INFO] 192.168.1.14 User 'admin' logged in successfully.
+2025-04-12 [WARNING] 192.168.1.18 Service 'nginx' restarted successfully.
+2025-08-04 [ERROR] 192.168.1.11 Network latency detected on 192.168.1.11.
+2025-12-10 [INFO] 192.168.1.20 User 'admin' logged in successfully.
+2025-05-21 [ERROR] 192.168.1.10 Configuration file /etc/app/config.yaml updated.
+2025-10-23 [WARNING] 192.168.1.17 Service 'nginx' restarted successfully.
+2025-02-16 [WARNING] 192.168.1.26 Network latency detected on 192.168.1.26.
+2025-06-13 [INFO] 192.168.1.16 HTTP request from 192.168.1.16:200 GET /api/items 200 OK
+2025-05-12 [INFO] 192.168.1.16 User 'guest' requested resource /public/info.
+2025-12-03 [INFO] 192.168.1.12 Database 'users' synchronized successfully.
+2025-11-02 [WARNING] 192.168.1.29 Unexpected end of file while reading config.yaml.
+2025-10-05 [INFO] 192.168.1.14 Low memory detected: only 512MB free.
+2025-07-24 [WARNING] 192.168.1.18 Backup failed: insufficient disk space.
+2025-01-08 [INFO] 192.168.1.15 Service 'nginx' restarted successfully.
+2025-03-12 [ERROR] 192.168.1.17 Service 'nginx' restarted successfully.
+2025-08-21 [WARNING] 192.168.1.11 Unexpected end of file while reading config.yaml.
+2025-09-25 [INFO] 192.168.1.17 CPU temperature high (87°C).
+2025-04-06 [INFO] 192.168.1.20 Backup failed: insufficient disk space.
+2025-05-18 [ERROR] 192.168.1.20 Unexpected end of file while reading config.yaml.
+2025-02-24 [ERROR] 192.168.1.16 Configuration file /etc/app/config.yaml updated.
+2025-07-19 [WARNING] 192.168.1.18 Network latency detected on 192.168.1.18.
+2025-08-23 [INFO] 192.168.1.20 User 'guest' requested resource /public/info.
+2025-02-01 [INFO] 192.168.1.22 Unexpected end of file while reading config.yaml.
+2025-04-18 [ERROR] 192.168.1.11 Backup failed: insufficient disk space.
+2025-04-07 [INFO] 192.168.1.22 Scheduled backup completed in 32.4 seconds.
+2025-08-01 [WARNING] 192.168.1.27 Disk usage at 85% on /dev/sda1.
+2025-10-15 [ERROR] 192.168.1.14 Disk usage at 85% on /dev/sda1.
+2025-11-09 [INFO] 192.168.1.20 Disk usage at 85% on /dev/sda1.
+2025-11-01 [WARNING] 192.168.1.29 Service 'nginx' restarted successfully.
+2025-01-16 [ERROR] 192.168.1.29 Disk usage at 85% on /dev/sda1.
+2025-09-16 [ERROR] 192.168.1.23 User 'guest' requested resource /public/info.
+2025-12-20 [INFO] 192.168.1.18 Low memory detected: only 512MB free.
+2025-03-25 [WARNING] 192.168.1.26 User 'admin' logged in successfully.
+2025-05-27 [ERROR] 192.168.1.22 Disk usage at 85% on /dev/sda1.
+2025-04-14 [ERROR] 192.168.1.18 Disk usage at 85% on /dev/sda1.
+2025-06-23 [ERROR] 192.168.1.16 Scheduled backup completed in 32.4 seconds.
+2025-10-18 [INFO] 192.168.1.29 Disk usage at 85% on /dev/sda1.
+2025-08-16 [INFO] 192.168.1.17 Failed to connect to database 'inventory'.
+2025-07-26 [INFO] 192.168.1.16 Scheduled backup completed in 32.4 seconds.
+2025-01-23 [INFO] 192.168.1.12 Disk usage at 85% on /dev/sda1.
+2025-02-25 [INFO] 192.168.1.18 User 'guest' requested resource /public/info.
+2025-06-01 [INFO] 192.168.1.25 Backup failed: insufficient disk space.
+2025-02-19 [WARNING] 192.168.1.16 Unexpected end of file while reading config.yaml.
+2025-07-21 [INFO] 192.168.1.13 User 'admin' logged in successfully.
+2025-05-24 [WARNING] 192.168.1.28 Backup failed: insufficient disk space.
+2025-05-04 [INFO] 192.168.1.27 User 'admin' logged in successfully.
+2025-07-01 [INFO] 192.168.1.15 Configuration file /etc/app/config.yaml updated.
+2025-02-07 [WARNING] 192.168.1.27 Permission denied accessing /var/www/html.
+2025-07-14 [ERROR] 192.168.1.21 Database 'users' synchronized successfully.
+2025-01-13 [WARNING] 192.168.1.13 Permission denied accessing /var/www/html.
+2025-12-15 [ERROR] 192.168.1.21 CPU temperature high (87°C).
+2025-07-26 [ERROR] 192.168.1.21 User 'admin' logged in successfully.
+2025-10-17 [INFO] 192.168.1.10 Disk usage at 85% on /dev/sda1.
+2025-11-20 [ERROR] 192.168.1.20 User 'admin' logged in successfully.
+2025-04-02 [WARNING] 192.168.1.13 HTTP request from 192.168.1.13:200 GET /api/items 200 OK
+2025-06-10 [ERROR] 192.168.1.18 Network latency detected on 192.168.1.18.
+2025-03-07 [INFO] 192.168.1.15 Database 'users' synchronized successfully.
+2025-06-25 [ERROR] 192.168.1.10 Configuration file /etc/app/config.yaml updated.
+2025-06-11 [INFO] 192.168.1.28 Failed to connect to database 'inventory'.
+2025-10-16 [ERROR] 192.168.1.16 Configuration file /etc/app/config.yaml updated.
+2025-02-28 [INFO] 192.168.1.28 Low memory detected: only 512MB free.
+2025-12-04 [WARNING] 192.168.1.29 Backup failed: insufficient disk space.
+2025-10-16 [INFO] 192.168.1.12 Backup failed: insufficient disk space.
+2025-11-09 [WARNING] 192.168.1.29 Failed to connect to database 'inventory'.
+2025-11-28 [WARNING] 192.168.1.23 Scheduled backup completed in 32.4 seconds.
+2025-09-05 [INFO] 192.168.1.13 CPU temperature high (87°C).
+2025-02-04 [INFO] 192.168.1.22 Disk usage at 85% on /dev/sda1.
+2025-05-10 [WARNING] 192.168.1.13 Low memory detected: only 512MB free.
+2025-02-04 [INFO] 192.168.1.18 Permission denied accessing /var/www/html.
+2025-08-14 [ERROR] 192.168.1.17 Network latency detected on 192.168.1.17.
+2025-09-11 [ERROR] 192.168.1.21 Disk usage at 85% on /dev/sda1.
+2025-04-05 [INFO] 192.168.1.25 User 'guest' requested resource /public/info.
+2025-12-26 [WARNING] 192.168.1.15 Disk usage at 85% on /dev/sda1.
+2025-03-02 [INFO] 192.168.1.29 Low memory detected: only 512MB free.
+2025-01-20 [INFO] 192.168.1.27 Backup failed: insufficient disk space.
+2025-10-17 [WARNING] 192.168.1.28 Service 'nginx' restarted successfully.
+2025-08-27 [INFO] 192.168.1.24 Configuration file /etc/app/config.yaml updated.
+2025-02-11 [INFO] 192.168.1.16 Low memory detected: only 512MB free.
+2025-06-03 [INFO] 192.168.1.20 Permission denied accessing /var/www/html.
+2025-09-24 [WARNING] 192.168.1.20 Service 'nginx' restarted successfully.
+2025-11-19 [INFO] 192.168.1.16 Configuration file /etc/app/config.yaml updated.
+2025-10-17 [WARNING] 192.168.1.15 Service 'nginx' restarted successfully.
+2025-12-23 [WARNING] 192.168.1.19 Permission denied accessing /var/www/html.
+2025-04-12 [ERROR] 192.168.1.25 User 'admin' logged in successfully.
+2025-09-25 [WARNING] 192.168.1.13 CPU temperature high (87°C).
+2025-03-16 [WARNING] 192.168.1.15 Low memory detected: only 512MB free.
+2025-05-12 [ERROR] 192.168.1.25 User 'admin' logged in successfully.
+2025-02-28 [ERROR] 192.168.1.20 Permission denied accessing /var/www/html.
+2025-05-08 [WARNING] 192.168.1.12 CPU temperature high (87°C).
+2025-06-21 [WARNING] 192.168.1.17 Service 'nginx' restarted successfully.
+2025-08-16 [INFO] 192.168.1.18 Failed to connect to database 'inventory'.
+2025-06-06 [ERROR] 192.168.1.19 Backup failed: insufficient disk space.
+2025-06-21 [INFO] 192.168.1.19 Network latency detected on 192.168.1.19.
+2025-07-11 [INFO] 192.168.1.10 Service 'nginx' restarted successfully.
+2025-02-17 [INFO] 192.168.1.14 Network latency detected on 192.168.1.14.
+2025-09-21 [WARNING] 192.168.1.12 Permission denied accessing /var/www/html.
+2025-10-13 [INFO] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-06-04 [ERROR] 192.168.1.18 Disk usage at 85% on /dev/sda1.
+2025-08-08 [INFO] 192.168.1.19 Low memory detected: only 512MB free.
+2025-01-27 [ERROR] 192.168.1.22 Unexpected end of file while reading config.yaml.
+2025-11-12 [INFO] 192.168.1.19 Low memory detected: only 512MB free.
+2025-06-01 [INFO] 192.168.1.22 Database 'users' synchronized successfully.
+2025-08-25 [WARNING] 192.168.1.10 HTTP request from 192.168.1.10:200 GET /api/items 200 OK
+2025-10-07 [INFO] 192.168.1.23 Configuration file /etc/app/config.yaml updated.
+2025-01-24 [WARNING] 192.168.1.13 Failed to connect to database 'inventory'.
+2025-04-21 [INFO] 192.168.1.23 Database 'users' synchronized successfully.
+2025-11-23 [ERROR] 192.168.1.24 Permission denied accessing /var/www/html.
+2025-09-17 [ERROR] 192.168.1.15 HTTP request from 192.168.1.15:200 GET /api/items 200 OK
+2025-01-14 [INFO] 192.168.1.29 Service 'nginx' restarted successfully.
+2025-07-25 [INFO] 192.168.1.28 CPU temperature high (87°C).
+2025-03-07 [INFO] 192.168.1.29 Network latency detected on 192.168.1.29.
+2025-06-22 [WARNING] 192.168.1.10 Backup failed: insufficient disk space.
+2025-08-12 [INFO] 192.168.1.22 Low memory detected: only 512MB free.
+2025-08-21 [WARNING] 192.168.1.23 Database 'users' synchronized successfully.
+2025-01-03 [ERROR] 192.168.1.19 Database 'users' synchronized successfully.
+2025-01-19 [INFO] 192.168.1.28 Network latency detected on 192.168.1.28.
+2025-03-26 [WARNING] 192.168.1.10 Configuration file /etc/app/config.yaml updated.
+2025-01-13 [INFO] 192.168.1.16 Service 'nginx' restarted successfully.
+2025-03-12 [WARNING] 192.168.1.22 Low memory detected: only 512MB free.
+2025-07-15 [INFO] 192.168.1.18 Backup failed: insufficient disk space.
+2025-06-21 [WARNING] 192.168.1.23 Scheduled backup completed in 32.4 seconds.
+2025-04-14 [ERROR] 192.168.1.27 Scheduled backup completed in 32.4 seconds.
+2025-05-08 [ERROR] 192.168.1.11 Network latency detected on 192.168.1.11.
+2025-07-07 [WARNING] 192.168.1.20 Permission denied accessing /var/www/html.
+2025-02-05 [INFO] 192.168.1.24 Unexpected end of file while reading config.yaml.
+2025-05-02 [INFO] 192.168.1.18 Low memory detected: only 512MB free.
+2025-10-25 [INFO] 192.168.1.20 Failed to connect to database 'inventory'.
+2025-01-20 [ERROR] 192.168.1.14 Failed to connect to database 'inventory'.
+2025-11-19 [WARNING] 192.168.1.25 Failed to connect to database 'inventory'.
+2025-01-25 [ERROR] 192.168.1.26 Backup failed: insufficient disk space.
+2025-08-24 [ERROR] 192.168.1.14 User 'guest' requested resource /public/info.
+2025-12-02 [INFO] 192.168.1.21 User 'admin' logged in successfully.
+2025-11-28 [WARNING] 192.168.1.27 User 'guest' requested resource /public/info.
+2025-11-27 [INFO] 192.168.1.13 User 'admin' logged in successfully.
+2025-09-20 [ERROR] 192.168.1.22 Service 'nginx' restarted successfully.
+2025-11-14 [ERROR] 192.168.1.13 Permission denied accessing /var/www/html.
+2025-12-27 [ERROR] 192.168.1.29 User 'guest' requested resource /public/info.
+2025-09-02 [INFO] 192.168.1.22 Service 'nginx' restarted successfully.
+2025-01-14 [ERROR] 192.168.1.10 Failed to connect to database 'inventory'.
+2025-10-17 [INFO] 192.168.1.20 Scheduled backup completed in 32.4 seconds.
+2025-06-26 [ERROR] 192.168.1.13 Database 'users' synchronized successfully.
+2025-07-15 [ERROR] 192.168.1.14 Unexpected end of file while reading config.yaml.
+2025-10-25 [INFO] 192.168.1.16 User 'guest' requested resource /public/info.
+2025-03-23 [WARNING] 192.168.1.28 Permission denied accessing /var/www/html.
+2025-12-24 [WARNING] 192.168.1.26 HTTP request from 192.168.1.26:200 GET /api/items 200 OK
+2025-01-03 [INFO] 192.168.1.10 Low memory detected: only 512MB free.
+2025-11-04 [WARNING] 192.168.1.17 Failed to connect to database 'inventory'.
+2025-11-07 [INFO] 192.168.1.29 Network latency detected on 192.168.1.29.
+2025-12-13 [ERROR] 192.168.1.20 Low memory detected: only 512MB free.
+2025-08-10 [WARNING] 192.168.1.25 Configuration file /etc/app/config.yaml updated.
+2025-03-04 [WARNING] 192.168.1.20 CPU temperature high (87°C).
+2025-09-18 [WARNING] 192.168.1.22 User 'admin' logged in successfully.
+2025-05-18 [ERROR] 192.168.1.19 Scheduled backup completed in 32.4 seconds.
+2025-03-14 [WARNING] 192.168.1.25 Configuration file /etc/app/config.yaml updated.
+2025-07-02 [INFO] 192.168.1.18 HTTP request from 192.168.1.18:200 GET /api/items 200 OK
+2025-03-09 [INFO] 192.168.1.11 Low memory detected: only 512MB free.
+2025-04-04 [WARNING] 192.168.1.29 Failed to connect to database 'inventory'.
+2025-02-20 [WARNING] 192.168.1.27 HTTP request from 192.168.1.27:200 GET /api/items 200 OK
+2025-12-15 [INFO] 192.168.1.20 HTTP request from 192.168.1.20:200 GET /api/items 200 OK
+2025-09-22 [INFO] 192.168.1.13 Configuration file /etc/app/config.yaml updated.
+2025-12-27 [WARNING] 192.168.1.17 Disk usage at 85% on /dev/sda1.
+2025-03-13 [INFO] 192.168.1.13 HTTP request from 192.168.1.13:200 GET /api/items 200 OK
+2025-01-24 [WARNING] 192.168.1.25 Low memory detected: only 512MB free.
+2025-02-02 [ERROR] 192.168.1.18 Database 'users' synchronized successfully.
+2025-09-05 [ERROR] 192.168.1.10 Configuration file /etc/app/config.yaml updated.
+2025-09-11 [WARNING] 192.168.1.13 Configuration file /etc/app/config.yaml updated.
+2025-11-26 [WARNING] 192.168.1.17 Network latency detected on 192.168.1.17.
+2025-10-11 [WARNING] 192.168.1.25 Scheduled backup completed in 32.4 seconds.
+2025-09-08 [WARNING] 192.168.1.28 Failed to connect to database 'inventory'.
+2025-02-14 [INFO] 192.168.1.12 Service 'nginx' restarted successfully.
+2025-05-25 [WARNING] 192.168.1.12 Network latency detected on 192.168.1.12.
+2025-09-21 [ERROR] 192.168.1.16 Scheduled backup completed in 32.4 seconds.
+2025-11-25 [WARNING] 192.168.1.21 Database 'users' synchronized successfully.
+2025-06-21 [INFO] 192.168.1.27 HTTP request from 192.168.1.27:200 GET /api/items 200 OK
+2025-07-19 [ERROR] 192.168.1.16 CPU temperature high (87°C).
+2025-05-14 [WARNING] 192.168.1.18 User 'guest' requested resource /public/info.
+2025-03-27 [INFO] 192.168.1.10 HTTP request from 192.168.1.10:200 GET /api/items 200 OK
+2025-02-10 [ERROR] 192.168.1.24 Failed to connect to database 'inventory'.
+2025-01-28 [INFO] 192.168.1.18 CPU temperature high (87°C).
+2025-02-08 [ERROR] 192.168.1.16 Unexpected end of file while reading config.yaml.
+2025-02-26 [INFO] 192.168.1.16 Network latency detected on 192.168.1.16.
+2025-12-03 [ERROR] 192.168.1.23 Database 'users' synchronized successfully.
+2025-09-10 [INFO] 192.168.1.15 Service 'nginx' restarted successfully.
+2025-09-16 [ERROR] 192.168.1.10 Disk usage at 85% on /dev/sda1.
+2025-05-12 [ERROR] 192.168.1.24 Permission denied accessing /var/www/html.
+2025-10-28 [INFO] 192.168.1.27 Network latency detected on 192.168.1.27.
+2025-02-27 [WARNING] 192.168.1.27 HTTP request from 192.168.1.27:200 GET /api/items 200 OK
+2025-04-17 [INFO] 192.168.1.27 HTTP request from 192.168.1.27:200 GET /api/items 200 OK
+2025-12-01 [ERROR] 192.168.1.15 Low memory detected: only 512MB free.
+2025-12-19 [ERROR] 192.168.1.22 Disk usage at 85% on /dev/sda1.
+2025-09-28 [ERROR] 192.168.1.17 User 'admin' logged in successfully.
+2025-12-19 [INFO] 192.168.1.11 User 'admin' logged in successfully.
+2025-10-18 [INFO] 192.168.1.11 Scheduled backup completed in 32.4 seconds.
+2025-01-26 [INFO] 192.168.1.16 Database 'users' synchronized successfully.
+2025-08-05 [ERROR] 192.168.1.12 Network latency detected on 192.168.1.12.
+2025-04-27 [INFO] 192.168.1.28 Permission denied accessing /var/www/html.
+2025-06-04 [INFO] 192.168.1.18 Low memory detected: only 512MB free.
+2025-04-26 [ERROR] 192.168.1.10 Low memory detected: only 512MB free.
+2025-03-27 [INFO] 192.168.1.29 Permission denied accessing /var/www/html.
+2025-10-22 [ERROR] 192.168.1.13 Service 'nginx' restarted successfully.
+2025-05-20 [WARNING] 192.168.1.13 Database 'users' synchronized successfully.
+2025-12-23 [ERROR] 192.168.1.12 HTTP request from 192.168.1.12:200 GET /api/items 200 OK
+2025-01-23 [WARNING] 192.168.1.25 Disk usage at 85% on /dev/sda1.
+2025-08-22 [ERROR] 192.168.1.29 Failed to connect to database 'inventory'.
+2025-08-14 [ERROR] 192.168.1.14 Service 'nginx' restarted successfully.
+2025-03-21 [WARNING] 192.168.1.17 HTTP request from 192.168.1.17:200 GET /api/items 200 OK
+2025-11-15 [INFO] 192.168.1.10 Unexpected end of file while reading config.yaml.
+2025-02-10 [WARNING] 192.168.1.13 User 'guest' requested resource /public/info.
+2025-02-24 [ERROR] 192.168.1.14 Network latency detected on 192.168.1.14.
+2025-03-09 [INFO] 192.168.1.29 Disk usage at 85% on /dev/sda1.
+2025-03-21 [WARNING] 192.168.1.22 Scheduled backup completed in 32.4 seconds.
+2025-11-10 [WARNING] 192.168.1.20 Database 'users' synchronized successfully.
+2025-04-09 [ERROR] 192.168.1.10 Service 'nginx' restarted successfully.
+2025-07-06 [ERROR] 192.168.1.20 Configuration file /etc/app/config.yaml updated.
+2025-12-28 [INFO] 192.168.1.26 CPU temperature high (87°C).
+2025-10-13 [ERROR] 192.168.1.18 Low memory detected: only 512MB free.
+2025-07-14 [WARNING] 192.168.1.28 Unexpected end of file while reading config.yaml.
+2025-06-04 [INFO] 192.168.1.29 Configuration file /etc/app/config.yaml updated.
+2025-07-08 [ERROR] 192.168.1.24 Configuration file /etc/app/config.yaml updated.
+2025-01-11 [WARNING] 192.168.1.14 CPU temperature high (87°C).
+2025-08-28 [INFO] 192.168.1.15 Service 'nginx' restarted successfully.
+2025-03-26 [ERROR] 192.168.1.13 Disk usage at 85% on /dev/sda1.
+2025-05-25 [INFO] 192.168.1.11 Permission denied accessing /var/www/html.
+2025-12-19 [INFO] 192.168.1.10 Backup failed: insufficient disk space.
+2025-01-05 [WARNING] 192.168.1.28 Database 'users' synchronized successfully.
+2025-03-14 [ERROR] 192.168.1.11 Failed to connect to database 'inventory'.
+2025-05-12 [ERROR] 192.168.1.21 Unexpected end of file while reading config.yaml.
+2025-01-13 [WARNING] 192.168.1.10 Backup failed: insufficient disk space.
+2025-12-15 [INFO] 192.168.1.20 User 'admin' logged in successfully.
+2025-06-21 [ERROR] 192.168.1.24 Configuration file /etc/app/config.yaml updated.
+2025-12-11 [INFO] 192.168.1.28 Backup failed: insufficient disk space.
+2025-11-22 [INFO] 192.168.1.18 Failed to connect to database 'inventory'.
+2025-06-14 [INFO] 192.168.1.13 Backup failed: insufficient disk space.
+2025-05-27 [INFO] 192.168.1.23 Service 'nginx' restarted successfully.
+2025-07-03 [INFO] 192.168.1.25 Scheduled backup completed in 32.4 seconds.
+2025-06-08 [ERROR] 192.168.1.13 CPU temperature high (87°C).
+2025-07-24 [INFO] 192.168.1.28 User 'guest' requested resource /public/info.
+2025-01-08 [ERROR] 192.168.1.17 Unexpected end of file while reading config.yaml.
+2025-03-27 [ERROR] 192.168.1.24 User 'admin' logged in successfully.
+2025-07-24 [INFO] 192.168.1.21 Service 'nginx' restarted successfully.
+2025-04-02 [INFO] 192.168.1.10 Database 'users' synchronized successfully.
+2025-09-02 [ERROR] 192.168.1.18 User 'guest' requested resource /public/info.
+2025-08-13 [WARNING] 192.168.1.19 Service 'nginx' restarted successfully.
+2025-08-26 [ERROR] 192.168.1.17 User 'admin' logged in successfully.
+2025-05-28 [ERROR] 192.168.1.21 Network latency detected on 192.168.1.21.
+2025-12-28 [INFO] 192.168.1.14 Low memory detected: only 512MB free.
+2025-09-11 [WARNING] 192.168.1.18 Disk usage at 85% on /dev/sda1.
+2025-07-18 [ERROR] 192.168.1.24 Network latency detected on 192.168.1.24.
+2025-11-07 [ERROR] 192.168.1.18 HTTP request from 192.168.1.18:200 GET /api/items 200 OK
+2025-01-28 [WARNING] 192.168.1.12 Disk usage at 85% on /dev/sda1.
+2025-04-09 [WARNING] 192.168.1.24 Low memory detected: only 512MB free.
+2025-05-18 [WARNING] 192.168.1.13 Low memory detected: only 512MB free.
+2025-12-05 [WARNING] 192.168.1.29 Database 'users' synchronized successfully.
+2025-07-12 [ERROR] 192.168.1.10 User 'guest' requested resource /public/info.
+2025-11-05 [WARNING] 192.168.1.16 Database 'users' synchronized successfully.
+2025-04-28 [INFO] 192.168.1.26 Low memory detected: only 512MB free.
