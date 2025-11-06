@@ -20,13 +20,13 @@ Ejecuta el análisis de cada bloque de líneas.
 ## Métodos
 
 ### `__init__(self, log_dir, lines_per_chunk=300, workers=4, encoding="utf-8", monitor=False, patterns=None, info_dir="info", output="info.json")` (valores por defecto)
-Inicializa la clase con los parámetros necesario y as estancias.
+Inicializa la clase con los parámetros necesario y as estancias.  
 **Entrada:** parámetros de configuración del análisis
 
 ---
 
 ### `_start_monitor(self, worker_pids: Optional[List[int]] = None, interval: float = 1.0)`
-Inicia un **hilo** que monitoriza el sistema y los procesos usando `psutil`.
+Inicia un **hilo** que monitoriza el sistema y los procesos usando `psutil`.  
 **Entrada:**  
 - `worker_pids: Optional[List[int]]` — lista de PIDs de los procesos a monitorizar 
 - `interval: float` — intervalo en segundos entre muestras (por defecto `1.0`)
@@ -38,22 +38,22 @@ Inicia un **hilo** que monitoriza el sistema y los procesos usando `psutil`.
 Se realiza el análisis paralelo de logs
 - Crea procesos worker
 - Reparte chunks de líneas mediante una cola
-- Devuelve el resultado agregado.
+- Devuelve el resultado agregado.  
 **Salida:** `Dict[str, Any]` — diccionario con estadísticas agregadas 
 
 ---
 
 ### `_mergue(self, parts: List[Dict[str,Any]])`  
-Combina los resultados parciales generados por los workers.  
-**Entrada:** lista de diccionarios (`list[dict]`) con estadísticas parciales.
-**Salida:** diccionario (`dict`) con todas las listas de cada worker juntas.
+Combina los resultados parciales generados por los workers.    
+**Entrada:** lista de diccionarios (`list[dict]`) con estadísticas parciales.  
+**Salida:** diccionario (`dict`) con todas las listas de cada worker juntas.  
 
 ---
 
 ### `save_json_report(self, results)`  
-Guarda los resultados del análisis en un archivo JSON dentro de `/info`
+Guarda los resultados del análisis en un archivo JSON dentro de `/info`  
 **Entrada:** diccionario (`dict`) devuelto por `_mergue()`  
-**Salida:** ruta del archivo creado
+**Salida:** ruta del archivo creado  
 
 
 ---
