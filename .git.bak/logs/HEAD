@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 358857196427ccff36430644c988dd3dcb1d0a80 Carlos <olmedoreyescarlos580@gmail.com> 1760442178 +0200	clone: from https://github.com/Charlie-24/Analizador_paralelo_de_logs.git
+358857196427ccff36430644c988dd3dcb1d0a80 f1ea88a7c19cdcb1eb2c827929af23d0c35340b1 Carlos <olmedoreyescarlos580@gmail.com> 1760461399 +0200	commit: Config y logs_utils
+f1ea88a7c19cdcb1eb2c827929af23d0c35340b1 797b0fd0515c391dea0f401e3daa5a6a20912886 Carlos <olmedoreyescarlos580@gmail.com> 1761148743 +0200	pull: Fast-forward
+797b0fd0515c391dea0f401e3daa5a6a20912886 ab0fb40040b8b7f0b0418b84b3852e2b991de34c Carlos <olmedoreyescarlos580@gmail.com> 1761152125 +0200	commit: codigo completo
+ab0fb40040b8b7f0b0418b84b3852e2b991de34c 079cf9f3972e9a1d9099c8bfd29756adec2544c5 Carlos <olmedoreyescarlos580@gmail.com> 1761153177 +0200	commit: Primera Version Funcional version 1.0
+079cf9f3972e9a1d9099c8bfd29756adec2544c5 17c25e1c182dd7d6da6ef56d6892cd7db0007113 Carlos <olmedoreyescarlos580@gmail.com> 1761156740 +0200	commit: Analizador Paralelo version 1.0
+17c25e1c182dd7d6da6ef56d6892cd7db0007113 bc0d0fa7d44e08d0a0c92547af8d2fff0eab1295 Carlos <olmedoreyescarlos580@gmail.com> 1761156822 +0200	commit: Analizador Paralelo version 1.0 completo
+bc0d0fa7d44e08d0a0c92547af8d2fff0eab1295 d525f3a3a373b3047ab8f7ad6853c8ae0718f825 Carlos <olmedoreyescarlos580@gmail.com> 1761898479 +0100	pull: Fast-forward
+d525f3a3a373b3047ab8f7ad6853c8ae0718f825 b49f2fbf7b02d3289432078851df2c44b7d7d9d3 Carlos <olmedoreyescarlos580@gmail.com> 1762164541 +0100	commit: Analizador simplificado version 3.0
+b49f2fbf7b02d3289432078851df2c44b7d7d9d3 c0241eb011df2291eba03d34d67def707230c01c Carlos <olmedoreyescarlos580@gmail.com> 1762198857 +0100	commit: Ultima version analizador + generador de logs
+c0241eb011df2291eba03d34d67def707230c01c 5e13b8c1262e61e76e110feb98a73a8a9316f461 Carlos <olmedoreyescarlos580@gmail.com> 1762200553 +0100	commit: Nuevo estructuramineto
+5e13b8c1262e61e76e110feb98a73a8a9316f461 656840ad7f07d3c660ebd3179873400bdc39238f Carlos <olmedoreyescarlos580@gmail.com> 1762348057 +0100	commit: documentacion codigo en proceso...
+656840ad7f07d3c660ebd3179873400bdc39238f e77d5ad973e87970bdf0e181db2c717e27a624fc Carlos <olmedoreyescarlos580@gmail.com> 1762348948 +0100	commit: documentacion debug
+e77d5ad973e87970bdf0e181db2c717e27a624fc 68628b26b78eb9857e3089239595d00fa4d9178b Carlos <olmedoreyescarlos580@gmail.com> 1762349013 +0100	commit: documentacion debug finalizada
