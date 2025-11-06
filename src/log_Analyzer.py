@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os, re, json, time, fnmatch, multiprocessing, threading, logging
 from datetime import datetime
 from typing import List, Dict, Any, Optional
@@ -12,15 +11,6 @@ IP_RE = re.compile(r"\b\d{1,3}(?:\.\d{1,3}){3}\b")
 LEVEL_RE = re.compile(r"\b(INFO|WARN(?:ING)?|ERROR)\b", re.I)
 DATE_DAY_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
 
-# Ejecuta cada worker que procesa los chunks
-# Atributos
-# state:dict --> Transmite informacion general entre procesos, (no se usa en nuestro caso)
-# task_queue --> Cola de entrada. El proceso principal pone ahí listas de líneas (chunk) que el worker debe procesar.
-# Result_queue --> Cola de salida. El worker pone ahí un diccionario con resultados parciales una vez procesa un chunk.
-# Funcionalidad
-# Cada worker hace el proceso de analisis completo, como: conteo de lineas, conteo de niveles, errores y ips
-# Salida
-# result_queu --> Diccionario con los resultados del chunk procesado, este es introducido en result_queue y finalmente el proceso padre recogera los diccionarios y los fusionara 
 def worker_entry(state: dict, task_queue, result_queue):
     while True:
         chunk = task_queue.get()
@@ -63,23 +53,7 @@ def worker_entry(state: dict, task_queue, result_queue):
         })
 
 class LogAnalyzer:
-    """
-    Ahora acepta parámetros directamente:
-      log_dir: carpeta con logs (obligatorio)
-      lines_per_chunk: líneas por chunk
-      workers: nº de procesos worker
-      encoding: codificación al abrir archivos
-      monitor: activar monitor con psutil
-      patterns: lista de patrones de archivos (ej: ["*.log"])
-      open_errors_strategy: estrategia de 'errors' al abrir ficheros
-      info_dir: carpeta donde guardar resultados
-      output: ruta base del fichero de salida (sin timestamp)
-    """
-
-    # Comprueba la existencia de log_dir; si no lo encuentra muestra mensaje por pantalla
-    # Atributos
-    # Establece los parametros de configuración 
-    # Establece valores maximos a los workers y lineas por chunk
+    
     def __init__(self,
                  log_dir: str,
                  lines_per_chunk: int =300,
@@ -99,42 +73,27 @@ class LogAnalyzer:
         self.open_errors_strategy = open_errors_strategy
         self.info_dir = info_dir or os.path.join(os.getcwd(), "info")
 
-        #comprueba si existe info_dir
         os.makedirs(self.info_dir, exist_ok=True)
         self.output = output or os.path.join(self.info_dir, "resultado.json")
 
         if not os.path.isdir(self.log_dir):
             raise FileNotFoundError(f"Directorio Logs no encontrado: {self.log_dir}")
 
-    # Inicializa el monitoreo (comprueba que psutil haya sido instalado) monitoriza CPU y RAM
-    # worker_pids --> Lista de PID de los workers
-    # interval --> Cada cuando se actualiza la memoria 
-    
     def _start_monitor(self, worker_pids: Optional[List[int]] = None, interval: float = 1.0):
-       
-        """
-        Inicia un hilo (daemon) que usa psutil para monitorizar:
-        - CPU y RAM del sistema.
-        - Para cada PID en worker_pids: cpu_percent y memoria RSS (MB).
-        Requiere psutil; si no está instalado, se lanza RuntimeError.
-        
-        """
 
         if psutil is None:
             raise RuntimeError("psutil no está instalado. Instale con: pip install psutil")
 
         stop = {"run": True}
 
-        # Creacion de los hilos (con proceso monitorizado)
-
         def _mon():
-            # primer consumo para inicializar la  medicion cpu_percent
+
             psutil.cpu_percent(interval=None)
-            # Se crea un diccionario donde se guardaran los objetos psutil.Process, para poder volver acceder a ellos 
+
             proc_objs = {}
             while stop["run"]:
                 try:
-                    # Monitoriza el sistema y los workers creados cada 'interval'
+                    
                     cpu = psutil.cpu_percent(interval=None)
                     mem = psutil.virtual_memory().percent
                     msg = f"MONITOR — CPU_sistema: {cpu:.1f}%  MEM_sistema: {mem:.1f}%"
@@ -163,9 +122,7 @@ class LogAnalyzer:
         th._stop_flag = stop
         th.start()
         return th
-    
-    # Crea 4 workers 
-    # Devuleve un diccionario con el resultado global del analisis 
+
     def analyze(self) -> Dict[str, Any]:
 
         ctx = multiprocessing.get_context()
@@ -174,13 +131,10 @@ class LogAnalyzer:
         workers = []
         state = {"encoding": self.encoding, "open_errors_strategy": self.open_errors_strategy}
 
-        # Lanzamos procesos workers
         for i in range(self.workers):
             p = ctx.Process(target=worker_entry, args=(state, task_q, result_q))
             p.start()
             workers.append(p)
-
-            # Monitorización de cada worker al ser creado (mostrado en consola a modo debug)
 
             try:
                 rss = psutil.Process(p.pid).memory_info().rss / (1024 * 1024) if psutil else None
@@ -202,17 +156,13 @@ class LogAnalyzer:
             else:
                 logger.info("Worker %d (PID %d) — psutil no instalado", i+1, p.pid)
 
-        # Si el usuario pidió monitor, activamos monitor basado en psutil y pasamos los pids
         mon_thread = None
         if self.monitor:
             if psutil is None:
 
-                # decisión: si se solicita monitor y falta psutil, avisamos y abortamos
-                raise RuntimeError("Monitor activado pero psutil no disponible. Instale psutil: pip install psutil")
+                raise RuntimeError("Psutil no disponible. Instale psutil: pip install psutil")
             worker_pids = [p.pid for p in workers if p.pid is not None]
             mon_thread = self._start_monitor(worker_pids, 1.0)
-
-        # Cada proceso analiza los chunks 
 
         files = 0
         chunks_sent = 0
@@ -244,7 +194,6 @@ class LogAnalyzer:
         for _ in workers:
             task_q.put(None)
 
-        # Recolecta los resultados hasta que los procesos mueran 
         partials: List[Dict[str,Any]] = []
         import queue as _q
         alive = len(workers)
@@ -255,7 +204,6 @@ class LogAnalyzer:
             except _q.Empty:
                 alive = sum(1 for p in workers if p.is_alive())
 
-        # Vacia la cola 'result_q' una vez finalizan los workers y detienen los hilos de monitorización
         try:
             while True:
                 partials.append(result_q.get_nowait())
@@ -271,10 +219,6 @@ class LogAnalyzer:
 
         return self._merge(partials)
 
-    # Combina los resultados de cada worker 
-    # Atributos
-    # parts: List[Dict[str,Any]] --> lista de diccionarios 
-    # Devuelve un diccionario unico con todos los resultados
     def _merge(self, parts: List[Dict[str,Any]]) -> Dict[str,Any]:
         total = 0
         levels = {"INFO": 0, "WARNING": 0, "ERROR": 0}
@@ -300,12 +244,6 @@ class LogAnalyzer:
             "errors_by_day": errors_by_day
         }
     
-    # Recoge los resultados de los chunks analizados y los refleja en un JSON 
-    # Atributos
-    # acc: Dict[str,Any] --> Diccionario ( ya procesado por el _merge())
-    # outfile: str --> ruta de salida
-    # ptional[Dict[str,Any]] = None --> Diccionario adicional para añadir parametros 
-    # Devuelve una cadena string con la ruta del archivo JSON creado
     @staticmethod
     def save_json_report(acc: Dict[str,Any], outfile: str, params: Optional[Dict[str,Any]] = None) -> str:
         params = params or {}

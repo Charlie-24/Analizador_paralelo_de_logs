@@ -6,14 +6,6 @@
 Clase principal encargada de analizar archivos de logs de forma paralela utilizando múltiples procesos (`workers`)
 .Divide los ficheros en fragmentos (`chunks`), lanza los procesos, recoge resultados y genera un informe en formato JSON.
 
-## Atributos
-
-### Expresiones regulares (Utilizadas en la clase externa `worker_entry()`)
-```python
-IP_RE = re.compile(r"\b\d{1,3}(?:\.\d{1,3}){3}\b")
-LEVEL_RE = re.compile(r"\b(INFO|WARN(?:ING)?|ERROR)\b", re.I)
-DATE_DAY_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
-```
 ## Función externa `worker_entry(state, task_queue, result_queue)`
 
 Ejecuta el análisis de cada bloque de líneas.  
@@ -21,25 +13,24 @@ Ejecuta el análisis de cada bloque de líneas.
 - `state (dict)`: datos compartidos.  
 - `task_queue (Queue)`: cola con listas de líneas a procesar.  
 - `result_queue (Queue)`: cola donde se envían los resultados.
-**Salida:** coloca en la cola un diccionario con las estadísticas del bloque procesado.
+
 
 ---
 
 ## Métodos
 
 ### `__init__(self, log_dir, lines_per_chunk=300, workers=4, encoding="utf-8", monitor=False, patterns=None, info_dir="info", output="info.json")` (valores por defecto)
-Inicializa la clase con los parámetros necesario 
+Inicializa la clase con los parámetros necesario y as estancias.
 **Entrada:** parámetros de configuración del análisis
-**Salida:** instancia de `LogAnalyzer`
 
 ---
 
 ### `_start_monitor(self, worker_pids: Optional[List[int]] = None, interval: float = 1.0)`
-Inicia un **hilo daemon** que monitoriza el sistema y los procesos `worker` usando `psutil`
+Inicia un **hilo** que monitoriza el sistema y los procesos usando `psutil`.
 **Entrada:**  
 - `worker_pids: Optional[List[int]]` — lista de PIDs de los procesos a monitorizar 
 - `interval: float` — intervalo en segundos entre muestras (por defecto `1.0`)
-**Salida:** Devuelve el objeto `threading.Thread` (hilo) arrancado para que siga monitorizando en `analyze()`
+
 
 --- 
 
@@ -47,24 +38,22 @@ Inicia un **hilo daemon** que monitoriza el sistema y los procesos `worker` usan
 Se realiza el análisis paralelo de logs
 - Crea procesos worker
 - Reparte chunks de líneas mediante una cola
-- Arranca un hilo de monitorización
-- Devuelve el resultado agregado
-**Entrada:** Ninguna (usa atributos de la instancia)
+- Devuelve el resultado agregado.
 **Salida:** `Dict[str, Any]` — diccionario con estadísticas agregadas 
 
 ---
 
 ### `_mergue(self, parts: List[Dict[str,Any]])`  
 Combina los resultados parciales generados por los workers.  
-**Entrada:** lista de diccionarios (`list[dict]`) con estadísticas parciales
-**Salida:** diccionario (`dict`) con todas las listas de cada worker juntas
+**Entrada:** lista de diccionarios (`list[dict]`) con estadísticas parciales.
+**Salida:** diccionario (`dict`) con todas las listas de cada worker juntas.
 
 ---
 
 ### `save_json_report(self, results)`  
 Guarda los resultados del análisis en un archivo JSON dentro de `/info`
 **Entrada:** diccionario (`dict`) devuelto por `_mergue()`  
-**Salida:** archivo `.json` creado con los datos del `dict`
+**Salida:** ruta del archivo creado
 
 
 ---
