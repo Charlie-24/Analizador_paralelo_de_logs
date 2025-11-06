@@ -14,13 +14,12 @@ Ejecuta el análisis de cada bloque de líneas.
 - `task_queue (Queue)`: cola con listas de líneas a procesar.  
 - `result_queue (Queue)`: cola donde se envían los resultados.
 
-
 ---
 
 ## Métodos
 
 ### `__init__(self, log_dir, lines_per_chunk=300, workers=4, encoding="utf-8", monitor=False, patterns=None, info_dir="info", output="info.json")` (valores por defecto)
-Inicializa la clase con los parámetros necesario y as estancias.  
+Inicializa la clase con los parámetros necesario y las estancias.  
 **Entrada:** parámetros de configuración del análisis
 
 ---
@@ -34,12 +33,12 @@ Inicia un **hilo** que monitoriza el sistema y los procesos usando `psutil`.
 
 --- 
 
-### ``analyze(self) -> Dict[str, Any]`
+### `analyze(self) -> Dict[str, Any]`
 Se realiza el análisis paralelo de logs
 - Crea procesos worker
 - Reparte chunks de líneas mediante una cola
 - Devuelve el resultado agregado.  
-**Salida:** `Dict[str, Any]` — diccionario con estadísticas agregadas 
+**Salida:** `Dict[str, Any]` — diccionario para cada worker
 
 ---
 
