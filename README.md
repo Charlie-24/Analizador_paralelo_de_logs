@@ -1,3 +1,13 @@
+# Instrucciones de uso
+
+1. Instalar psutil `pip install psutil`
+2. Comprobar que el archivo `.log` de encuentre dentro de `/logs` 
+    1. Si no disponemos de ningun archivo, ejecutar `logs_creator.py`
+3. Ejecutar la clase `main_app-py`
+4. Revisar archivo de salida en `/info`
+
+
+---
 #  Documentación Analizador_Paralelo_de_logs
 
 ## Clase `LogAnalyzer`
