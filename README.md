@@ -78,12 +78,12 @@ Constructor de la clase principal.
 ### `run(self)`  
 Método principal que coordina toda la ejecución del análisis.  
 **Flujo de ejecución:**  
-1. **Configura los parámetros base:**   
+1. **Configura los parámetros base**   
 2. **Muestra la configuración en consola** usando el logger.  
 3. **Inicializa** una instancia de `LogAnalyzer` con los parámetros configurados.  
 4. **Ejecuta el análisis** mediante `analyzer.analyze()`.  
 5. **Guarda el resultado** en un archivo JSON utilizando `LogAnalyzer.save_json_report()`.   
-  
+
 
 **Salida:**  
 No devuelve un valor directo, pero genera un informe JSON con el resultado del análisis y lo guarda en el directorio `/info`.  
