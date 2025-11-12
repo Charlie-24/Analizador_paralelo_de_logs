@@ -2,13 +2,11 @@ import random
 import datetime
 import os
 
-# === CONFIGURACIÓN ===
+# configuracion
 NUM_LOGS = 1000
-# Carpeta donde se guardará el archivo (un nivel arriba de src)
 LOG_FOLDER = os.path.join(os.path.dirname(__file__), "../logs")
 LOG_FILENAME = "system_logs.log"
 
-# === DATOS BASE ===
 levels = ["INFO", "WARNING", "ERROR"]
 ips = [f"192.168.1.{i}" for i in range(10, 30)]
 messages = [
@@ -28,17 +26,16 @@ messages = [
     "Configuration file /etc/app/config.yaml updated.",
     "Database 'users' synchronized successfully."
 ]
-
-# === CREAR CARPETA SI NO EXISTE ===
+# Crea carpeta si no existe
 os.makedirs(LOG_FOLDER, exist_ok=True)
 
-# === RUTA COMPLETA DEL ARCHIVO ===
+# Ruta del archivo
 file_path = os.path.join(LOG_FOLDER, LOG_FILENAME)
 
-# === GENERAR LOGS ===
+# Generador de logs
 with open(file_path, "w", encoding="utf-8") as log_file:
     for _ in range(NUM_LOGS):
-        # Fecha aleatoria de 2025
+        
         date = datetime.date(
             2025,
             random.randint(1, 12),

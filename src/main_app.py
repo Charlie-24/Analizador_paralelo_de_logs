@@ -9,24 +9,21 @@ logger = logging.getLogger(__name__)
 
 class MainApp:
     
-    # argv: Optional[List[str]] = None --> Argumentos del programa 
     def __init__(self, argv: Optional[List[str]] = None):
         self.argv = argv
 
-    # Una vez creado el objeto de argumentos, se le da un valor a todas las variables 
     def run(self):
-        # --- CONFIGURACIÓN FIJA DESDE EL MAIN ---
-        # Puedes cambiar aquí las rutas o parámetros que desees
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        log_dir = os.path.normpath(os.path.join(base_dir, "..", "logs"))     # Carpeta con logs
-        info_dir = os.path.normpath(os.path.join(base_dir, "..", "info"))    # Carpeta info de salida
-        lines_per_chunk = 100                                                # Líneas por bloque
-        workers =4                                                          # Número de procesos paralelos
-        monitor = True                                                       # Mostrar progreso
-        patterns = ["*.log"]                                                 # Patrón de ficheros a analizar
-        output = os.path.join(info_dir, "resultado.json")                    # Fichero de salida JSON
 
-        # Log de configuración (similar al anterior cfg.to_dict())
+        # Parametros de configuracion 
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        log_dir = os.path.normpath(os.path.join(base_dir, "..", "logs"))    
+        info_dir = os.path.normpath(os.path.join(base_dir, "..", "info"))   
+        lines_per_chunk = 100                                                
+        workers =4                                                          
+        monitor = True                                                       
+        patterns = ["*.log"]                                                 
+        output = os.path.join(info_dir, "resultado.json")                   
+
         cfg_dict = {
             "log_dir": log_dir,
             "lines_per_chunk": lines_per_chunk,
@@ -61,7 +58,6 @@ class MainApp:
             logger.exception("Error durante el análisis: %s", e)
             return
 
-        # --- TIEMPO DE EJECUCIÓN ---
         duration = round(time.time() - start, 2)
         result["tiempo_total_segundos"] = duration
 

@@ -8,7 +8,7 @@ Clase principal encargada de analizar archivos de logs de forma paralela utiliza
 
 ## Función externa `worker_entry(state, task_queue, result_queue)`
 
-Ejecuta el análisis de cada bloque de líneas.  
+Ejecuta el análisis de cada bloque de líneas, esta funcion es ejecutada por cada worker.  
 **Entrada:**  
 - `state (dict)`: datos compartidos.  
 - `task_queue (Queue)`: cola con listas de líneas a procesar.  
@@ -19,13 +19,13 @@ Ejecuta el análisis de cada bloque de líneas.
 ## Métodos
 
 ### `__init__(self, log_dir, lines_per_chunk=300, workers=4, encoding="utf-8", monitor=False, patterns=None, info_dir="info", output="info.json")` (valores por defecto)
-Inicializa la clase con los parámetros necesario y las estancias.  
+Constructor que inicializa la clase con los parámetros necesario y las estancias.  
 **Entrada:** parámetros de configuración del análisis
 
 ---
 
 ### `_start_monitor(self, worker_pids: Optional[List[int]] = None, interval: float = 1.0)`
-Inicia un **hilo** que monitoriza el sistema y los procesos usando `psutil`.  
+Inicia un **hilo** en el proceso padre que monitoriza el sistema y los procesos usando `psutil`.  
 **Entrada:**  
 - `worker_pids: Optional[List[int]]` — lista de PIDs de los procesos a monitorizar 
 - `interval: float` — intervalo en segundos entre muestras (por defecto `1.0`)
@@ -57,6 +57,38 @@ Guarda los resultados del análisis en un archivo JSON dentro de `/info`
 
 ---
 
+
+## Clase `MainApp`
+
+## Descripción  
+Clase principal encargada de **inicializar, configurar y ejecutar** el análisis de logs utilizando la clase `LogAnalyzer`.  
+Finalmente comparte el resultado del analisis    
+
+---
+
+## Métodos
+
+### `__init__(self, argv: Optional[List[str]] = None)`  
+Constructor de la clase principal.    
+**Entrada:**  
+- `argv (list[str], opcional)` — lista de argumentos (no obligatorios).  
+
+---
+
+### `run(self)`  
+Método principal que coordina toda la ejecución del análisis.  
+**Flujo de ejecución:**  
+1. **Configura los parámetros base:**   
+2. **Muestra la configuración en consola** usando el logger.  
+3. **Inicializa** una instancia de `LogAnalyzer` con los parámetros configurados.  
+4. **Ejecuta el análisis** mediante `analyzer.analyze()`.  
+5. **Guarda el resultado** en un archivo JSON utilizando `LogAnalyzer.save_json_report()`.   
+  
+
+**Salida:**  
+No devuelve un valor directo, pero genera un informe JSON con el resultado del análisis y lo guarda en el directorio `/info`.  
+
+---
 
 
 ## Debug de la aplicacion (consola)
